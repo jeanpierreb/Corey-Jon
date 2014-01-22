@@ -35,3 +35,35 @@ div.mejs-button.mejs-playlist-button.mejs-hide-playlist {
 	
 	}
 }
+
+
+#footer {
+	position:absolute;
+	width:100% ;
+	bottom:0;
+	left:0;
+	height: 4em;
+	background:blue;
+}
+ 
+ // html, body {
+ // 	height: 100%;
+ // }
+
+// .main {
+// 	min-height: 100%;
+// 	height: auto !important;
+// 	height: 100%;
+// 	margin: 0 auto -4em;
+// }
+
+
+// #footer, .push {
+// 	clear: both;
+// 	height: 4em;
+// }
+
+// #footer {
+// 	background:blue;
+// 	z-index: 9999 !important;
+// }
