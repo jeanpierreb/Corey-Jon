@@ -24,6 +24,40 @@ body {
     z-index: 0;
 }
 
+/* Text */
+
+h1,
+h2 {
+    margin: 0;
+    padding: 0;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.5);
+}
+
+p {
+    line-height: 1.4;
+    text-shadow: 1px 1px 1px #000;
+}
+
+a,
+a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #40a5c6;
+}
+
+h1 a,
+h1 a:hover,
+h1 a:visited {
+    text-decoration: none;
+}
+
+p a {
+    font-weight: 700;
+}
+
 /* Header */
 
 header {
@@ -34,8 +68,6 @@ header {
     width: 400px;
     height: 400px;
 }
-
-
 
 /* Video Pages */
 
@@ -52,18 +84,6 @@ header {
     min-height: 100%;
     height: auto;
     width: auto;
-}
-
-.video-title {
-    position: absolute;
-    top: 5%;
-    right: 5%;
-    opacity: .5;
-    margin: 40px 0 0 0;
-    padding: 0;
-    line-height: .65;
-    font-size: 4em;
-    text-transform: uppercase;
 }
 
 /* Nav */

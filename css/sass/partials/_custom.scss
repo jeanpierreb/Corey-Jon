@@ -1,3 +1,4 @@
+
 #logo {
 	background: url(../img/logo.png);
 	width: 180px; 
@@ -13,8 +14,9 @@
 	margin:125px 25px 0 0;
 	float:right;
 	height:26px;
-	
+
 	a span {
+
 		color:#FFF;
 		opacity:0.2;
 		&:hover {
@@ -42,7 +44,8 @@ div.mejs-button.mejs-playlist-button.mejs-hide-playlist {
 	width:100% ;
 	bottom:0;
 	left:0;
-	height: 13em;
+	height: 9em;
+	z-index: 1000;
 }
 
 .Side-A, .Side-B {
