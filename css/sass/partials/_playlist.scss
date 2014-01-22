@@ -1,0 +1,76 @@
+
+
+/* Start: Show/Hide Playlist*/
+.mejs-controls .mejs-show-playlist button,
+.mejs-controls .mejs-hide-playlist button {
+  margin:15px 0 0 122px;
+  width:102px;
+  height:28px !important;
+  clear:both;
+  background: transparent url(playback.png) no-repeat;
+  background-position: 0 -137px;
+}
+/* End: Show/Hide Playlist */
+
+/* Start: Previous */
+.mejs-controls .mejs-prevtrack button {
+  width:102px;
+  height:137px;
+  background: transparent url(playback.png) no-repeat;
+  background-position: 0 0;
+}
+/* End: Previous */
+
+/* Start: Next */
+.mejs-controls .mejs-nexttrack button {
+  width:102px;
+  height:137px;
+  background: transparent url(playback.png) no-repeat;
+  background-position: -239px 0;
+}
+/* End: Next */
+
+/* Start: Shuffle */
+.mejs-controls .mejs-shuffle-on button {
+  background: transparent url(playback.png) no-repeat;
+  background-position: -32px 0;
+}
+.mejs-controls .mejs-shuffle-off button {
+  background: transparent url(playback.png) no-repeat;
+  background-position: -32px -16px;
+}
+/* End: Shuffle */
+
+/*Start: Playlist*/
+.mejs-playlist {
+
+  position: absolute;
+  left: 0;
+  height: 300px !important;
+  overflow-y: auto;
+  // background: #000000;
+  opacity: 0.8;
+  
+}
+.mejs-playlist ul {
+  margin: 0;
+  padding: 5px;
+}
+.mejs-playlist li {
+  border: 1px solid #facb18;
+  color: #facb18;
+  font-size: 16px;
+  height: 18px;
+  overflow: hidden;
+  margin: 2px;
+  cursor: pointer;
+  
+  &:hover {
+    color: #a8a8a8;
+  }
+  
+  &.current {
+    color: white;
+    font-weight: bold;
+  }
+}

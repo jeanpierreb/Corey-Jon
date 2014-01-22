@@ -1,0 +1,7 @@
+/music
+/img
+/vid
+/css/.sass-cache
+*.jpg
+*.png
+*.gif
