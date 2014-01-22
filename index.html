@@ -188,6 +188,14 @@
                 }
             });
 
+            // Previous button click goes to previous div
+            $('#prev-btn').on('click', function(e) {
+                e.preventDefault();
+                if (!isTransitioning) {
+                    previous();
+                }
+            });            
+
             function showVideo() {
                 BV.show($('#screen-'+screenIndex).attr('data-video'),{ambient:true});
             }
@@ -214,6 +222,7 @@
                         onTransitionComplete):
                     onTransitionComplete();
             }
+
 
             function onVideoLoaded() {
                 $('#screen-'+screenIndex).find('.big-image').transit({'opacity':0},500)
