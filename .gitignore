@@ -2,6 +2,7 @@
 /img
 /vid
 /css/.sass-cache
+/alpha-site
 *.jpg
 *.png
 *.gif
