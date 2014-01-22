@@ -103,12 +103,9 @@ nav:hover {
     opacity:.9;
 }
 
-nav:hover {
-    opacity: .6;
-}
 
 .next-icon {
-    background-image: url('../img/arrow.png');
+    background: url(../img/arrow.png) 0 0;
     display: block;
     width: 55px;
     height: 186px;

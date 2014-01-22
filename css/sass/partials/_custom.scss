@@ -61,3 +61,55 @@ div.mejs-button.mejs-playlist-button.mejs-hide-playlist {
     opacity: .4;
     cursor: pointer;
 }
+
+/* Nav */
+
+nav#next-btn {
+    position: absolute;
+    right: 5%;
+    top: 40%;
+    padding: 0;
+    opacity: .2;
+    cursor: pointer;
+    z-index: 1000;
+    
+	&:hover {
+	    opacity:.9;
+	}
+	
+	.next-icon {
+	    background: url(../img/arrow.png) 0 0;
+	    display: block;
+	    width: 55px;
+	    height: 186px;
+	    position: relative;
+	    /*left: -5px;*/
+	    text-decoration: none;
+	}
+}
+
+
+
+
+nav#prev-btn {
+    position: absolute;
+    left: 5%;
+    top: 40%;
+    padding: 0;
+    opacity: .2;
+    cursor: pointer;
+    z-index: 1000;
+	
+	&:hover {
+	    opacity:.9;
+	}
+    
+	.prev-icon {
+	    background: url(../img/arrow.png) -55px 0;
+	    display: block;
+	    width: 55px;
+	    height: 186px;
+	    position: relative;
+	    text-decoration: none;
+	}
+}

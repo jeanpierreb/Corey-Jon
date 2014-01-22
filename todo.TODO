@@ -10,37 +10,3 @@
  ☐ Disbable BigVideo controls
  ☐ add previous button
  ☐ loadingbar.js
-      function next() {
-      isTransitioning = true;
-      // update video index, reset image opacity if starting over
-      if (screenIndex === numScreens) {
-      screenIndex = 1;
-      } else {
-      screenIndex++;
-      }
-      if (!isTouch) {
-      $('#big-video-wrap').transit({'left':'-100%'},transitionDur)
-      }
-      $bigImage.css('opacity',1);
-      $('.homepage-video-slider').transit(
-      {'left':'-'+(100*(screenIndex-1))+'%'},
-      transitionDur,
-      onTransitionComplete);
-      }
-      function previous() {
-      isTransitioning = true;
-      // update video index, reset image opacity if starting over
-      if (screenIndex === 1) {
-      screenIndex = numScreens;
-      } else {
-      screenIndex--;
-      }
-      if (!isTouch) {
-      $('#big-video-wrap').transit({'left':'100%'},transitionDur)
-      }
-      $bigImage.css('opacity',1);
-      $('.homepage-video-slider').transit(
-      {'left':'-'+(100*(screenIndex-1))+'%'},
-      transitionDur,
-      onTransitionComplete);
- 
