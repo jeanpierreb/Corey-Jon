@@ -66,7 +66,18 @@
 
     
     <footer id="footer">
-        
+        <audio id="mejs" type="audio/mp3" controls="controls">
+        <!-- Side A -->
+          <Source src="music/side-a/all_night_long.mp3" title="All Night Long"></Source>
+          <Source src="music/side-a/one_minute.mp3" title="One Minute"></Source>
+          <Source src="music/side-a/renegade.mp3" title="Renegade"></Source>
+          <Source src="music/side-a/out_of_control_2175.mp3" title="Out of Control 2175"></Source>
+        <!-- Side B -->
+          <Source src="music/side-b/got_to_have_you.mp3" title="Got to Have You"></Source>
+          <Source src="music/side-b/matters.mp3" title="Matters"></Source>
+          <Source src="music/side-b/biggest_fan.mp3" title="Biggest Fan"></Source>
+          <Source src="music/side-b/crazy_glue.mp3" title="Crazy Glue"></Source>
+        </audio>
     </footer>
     
     
@@ -99,6 +110,27 @@
 
     <!-- Tutorial Demo -->
     <script src="js/jquery.transit.min.js"></script>
+
+    <!-- Audio Scripts -->
+    <script src="js/media_player.js"></script>
+    <script src="js/playlist.js"></script>
+
+    <!-- Initialize Music Player -->
+    <script>
+            $(function(){
+      $('audio').mediaelementplayer({
+          loop: false,
+          shuffle: false,
+          playlist: false,
+          audioHeight: 137,
+          audioWidth: 360,
+          playlistposition: 'top',
+          features: ['playlistfeature','prevtrack', 'playpause', 'nexttrack'],
+              keyActions: []
+          });
+        });
+    </script>
+
     <script>
         $(function() {
 
