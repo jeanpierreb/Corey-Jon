@@ -18,10 +18,7 @@
   height:98px;
   background: transparent url(playback2.png) no-repeat;
   background-position: 0 0;
-  opacity: .3;
-  &:hover {
-    opacity: 1;
-  }
+  @include opacity;
 }
 /* End: Previous */
 
@@ -31,10 +28,7 @@
   height:98px;
   background: transparent url(playback2.png) no-repeat;
   background-position: -143px 0;
-  opacity: .3;
-  &:hover {
-    opacity: 1;
-  }
+  @include opacity;
 }
 /* End: Next */
 
