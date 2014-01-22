@@ -91,25 +91,25 @@ nav#next-btn {
 
 
 
-nav#prev-btn {
-    position: absolute;
-    left: 5%;
-    top: 40%;
-    padding: 0;
-    opacity: .2;
-    cursor: pointer;
-    z-index: 1000;
+// nav#prev-btn {
+//     position: absolute;
+//     left: 5%;
+//     top: 40%;
+//     padding: 0;
+//     opacity: .2;
+//     cursor: pointer;
+//     z-index: 1000;
 	
-	&:hover {
-	    opacity:.9;
-	}
+// 	&:hover {
+// 	    opacity:.9;
+// 	}
     
-	.prev-icon {
-	    background: url(../img/arrow.png) -55px 0;
-	    display: block;
-	    width: 55px;
-	    height: 186px;
-	    position: relative;
-	    text-decoration: none;
-	}
-}
+// 	.prev-icon {
+// 	    background: url(../img/arrow.png) -55px 0;
+// 	    display: block;
+// 	    width: 55px;
+// 	    height: 186px;
+// 	    position: relative;
+// 	    text-decoration: none;
+// 	}
+// }

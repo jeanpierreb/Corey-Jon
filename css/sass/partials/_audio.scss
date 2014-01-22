@@ -1,6 +1,6 @@
 
 .mejs-container {
-	opacity: .2;
+	
 	position: relative; /* Can be removed for full width option*/
 	//background: #fff;
 	margin:0 auto;
@@ -8,9 +8,7 @@
 	text-align: left;
 	vertical-align: bottom;
 	text-indent: 0;
-	&:hover {
-		opacity: 1;
-	}
+
 }
 
 .me-plugin {
@@ -149,7 +147,7 @@
 	width: 100%;
 }
 
-
+// 
 .mejs-container .mejs-controls  div {
 	list-style-type: none;
 	background-image: none;
@@ -157,8 +155,8 @@
 	float: left;
 	margin: 0;
 	padding: 0;
-	width: 104px;
-	height: 137px;
+	width: 47px;
+	height: 98px;
 	font-size: 11px;
 	line-height: 11px;
 	font-family: Helvetica, Arial;
@@ -167,7 +165,7 @@
 
 div.mejs-button.mejs-playpause-button.mejs-play,
 div.mejs-button.mejs-playpause-button.mejs-pause {
-	width:137px;
+	width:95px;
 }
 
 div.mejs-button.mejs-playlist-button.mejs-show-playlist,
@@ -181,22 +179,24 @@ div.mejs-button.mejs-playlist-button.mejs-hide-playlist {
 	font-size: 0;
 	line-height: 0;
 	text-decoration: none;
-	margin: 0; //margin: 7px 5px;
+	margin: 0;
 	padding: 0;
 	position: absolute;
 	height: 16px;
 	width: 16px;
 	border: 0;
-	background: transparent url(playback.png) no-repeat;
+	background: transparent url(playback2.png) no-repeat;
 }
 
 .no-svg .mejs-controls .mejs-button button { 
-	background-image: url(playback.png); //Changed from control.png
+	//Changed from control.png
+	background-image: url(playback2.png);
+
 }
 
 /* :focus for accessibility */
 .mejs-controls .mejs-button button:focus {
-	//outline: solid 1px yellow;
+	outline:none; // kills weird border
 }
 
 /* End: CONTROL BAR */
@@ -228,15 +228,23 @@ div.mejs-button.mejs-playlist-button.mejs-hide-playlist {
 
 /* Start: Play/Pause/Stop */
 .mejs-controls .mejs-play button {
-	width:137px;
-	height:137px;
-	background-position: -101px 0;
+	width:95px;
+	height:98px;
+	background-position: -48px 0;
+	opacity: .3;
+	&:hover {
+		opacity: 1;
+	}
 }
 
 .mejs-controls .mejs-pause button {
-	width:137px;
-	height:137px;
-	background-position: -341px 0;
+	width:95px;
+	height:98px;
+	background-position: -48px 0;
+	opacity: .3;
+	&:hover {
+		opacity: 1;
+	}
 }
 
 .mejs-controls .mejs-stop button {

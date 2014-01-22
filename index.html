@@ -104,9 +104,9 @@
         </div>
     </div>
     
-    <nav id="prev-btn">
+    <!-- <nav id="prev-btn">
         <a href="#" class="prev-icon"></a>
-    </nav>
+    </nav> -->
 
     <nav id="next-btn">
         <a href="#" class="next-icon"></a>
@@ -136,8 +136,8 @@
           loop: false,
           shuffle: false,
           playlist: false,
-          audioHeight: 137,
-          audioWidth: 360,
+          audioHeight: 98,
+          audioWidth: 220,
           playlistposition: 'top',
           features: ['playlistfeature', 'prevtrack', 'playpause', 'nexttrack'],
               keyActions: []
@@ -189,12 +189,14 @@
             });
 
             // Previous button click goes to previous div
+            /*
             $('#prev-btn').on('click', function(e) {
                 e.preventDefault();
                 if (!isTransitioning) {
                     previous();
                 }
             });            
+            */
 
             function showVideo() {
                 BV.show($('#screen-'+screenIndex).attr('data-video'),{ambient:true});
@@ -202,37 +204,25 @@
 
             function next() {
                 isTransitioning = true;
+                
                 // update video index, reset image opacity if starting over
                 if (screenIndex === numScreens) {
+                    $bigImage.css('opacity',1);
                     screenIndex = 1;
                 } else {
                     screenIndex++;
                 }
+                
                 if (!isTouch) {
                     $('#big-video-wrap').transit({'left':'-100%'},transitionDur)
                 }
-                $bigImage.css('opacity',1);
-                $('.homepage-video-slider').transit(
-                    {'left':'-'+(100*(screenIndex-1))+'%'},
-                    transitionDur,
-                    onTransitionComplete);
-                }
-                function previous() {
-                    isTransitioning = true;
-                // update video index, reset image opacity if starting over
-                if (screenIndex === 1) {
-                    screenIndex = numScreens;
-                } else {
-                    screenIndex--;
-                }
-                if (!isTouch) {
-                    $('#big-video-wrap').transit({'left':'100%'},transitionDur)
-                }
-                $bigImage.css('opacity',1);
-                $('.homepage-video-slider').transit(
-                    {'left':'-'+(100*(screenIndex-1))+'%'},
-                    transitionDur,
-                    onTransitionComplete);
+                    
+                (Modernizr.csstransitions)?
+                    $('.wrapper').transit(
+                        {'left':'-'+(100*(screenIndex-1))+'%'},
+                        transitionDur,
+                        onTransitionComplete):
+                    onTransitionComplete();
             }
 
 

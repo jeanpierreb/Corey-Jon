@@ -86,36 +86,6 @@ header {
     width: auto;
 }
 
-/* Nav */
-
-nav {
-    position: absolute;
-    right: 5%;
-    top: 40%;
-    padding: 0;
-    opacity: .2;
-    cursor: pointer;
-    z-index: 1000;
-    
-}
-
-nav:hover {
-    opacity:.9;
-}
-
-
-.next-icon {
-    background: url(../img/arrow.png) 0 0;
-    display: block;
-    width: 55px;
-    height: 186px;
-    position: relative;
-    /*left: -5px;*/
-    text-decoration: none;
-}
-
-
-
 /* Codrops Header Style */
 .codrops-top {
     line-height: 24px;

@@ -7,36 +7,44 @@
   width:102px;
   height:28px !important;
   clear:both;
-  background: transparent url(playback.png) no-repeat;
+  background: transparent url(playback2.png) no-repeat;
   background-position: 0 -137px;
 }
 /* End: Show/Hide Playlist */
 
 /* Start: Previous */
 .mejs-controls .mejs-prevtrack button {
-  width:102px;
-  height:137px;
-  background: transparent url(playback.png) no-repeat;
+  width:48px;
+  height:98px;
+  background: transparent url(playback2.png) no-repeat;
   background-position: 0 0;
+  opacity: .3;
+  &:hover {
+    opacity: 1;
+  }
 }
 /* End: Previous */
 
 /* Start: Next */
 .mejs-controls .mejs-nexttrack button {
-  width:102px;
-  height:137px;
-  background: transparent url(playback.png) no-repeat;
-  background-position: -239px 0;
+  width:48px;
+  height:98px;
+  background: transparent url(playback2.png) no-repeat;
+  background-position: -143px 0;
+  opacity: .3;
+  &:hover {
+    opacity: 1;
+  }
 }
 /* End: Next */
 
 /* Start: Shuffle */
 .mejs-controls .mejs-shuffle-on button {
-  background: transparent url(playback.png) no-repeat;
+  background: transparent url(playback2.png) no-repeat;
   background-position: -32px 0;
 }
 .mejs-controls .mejs-shuffle-off button {
-  background: transparent url(playback.png) no-repeat;
+  background: transparent url(playback2.png) no-repeat;
   background-position: -32px -16px;
 }
 /* End: Shuffle */

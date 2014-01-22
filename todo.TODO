@@ -6,7 +6,10 @@
  ✔ Side-A track listings @done (14-01-22 07:53)
  ✔ Side-B track listings @done (14-01-22 07:53)
  ✔ change next button image @done (14-01-22 08:31)
+ ✔ add previous button @done (14-01-22 09:14)
  ☐ audio player css-sprite
- ☐ Disbable BigVideo controls
- ☐ add previous button
  ☐ loadingbar.js
+
+  sprites
+   48 - 95 - 48
+   prev - play - pause
