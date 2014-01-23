@@ -7,9 +7,7 @@
  ✔ Side-B track listings @done (14-01-22 07:53)
  ✔ change next button image @done (14-01-22 08:31)
  ✔ add previous button @done (14-01-22 09:14)
- ☐ audio player css-sprite
+ ✔ audio player css-sprite @done (14-01-22 14:46)
+ ☐ link playlists to text
+ ☐ playlist show/hide button
  ☐ loadingbar.js
-
-  sprites
-   48 - 95 - 48
-   prev - play - pause
