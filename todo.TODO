@@ -9,13 +9,13 @@
  ✔ add previous button @done (14-01-22 09:14)
  ✔ audio player css-sprite @done (14-01-22 14:46)
  ✔ Seperate audio eps @done (14-01-22 22:32)
- ☐ style playlist
- ☐ style playlist button
- ☐ loadingbar.js
- ☐ Add pause btn
+ ✔ style playlist @done (14-01-23 03:02)
+ ✔ style playlist button @done (14-01-23 03:02)
+ ✔ Add pause btn @done (14-01-23 03:02)
 
 
  ☐ Media Queries
  ☐ Small Next Arrow
  ☐ Animated gif for mobile
  ☐ Single image sprite
+ ☐ loadingbar.js

@@ -27,8 +27,8 @@
         // append it to the toolbar
         // 
         // 
-        // .appendTo(controls)
-           .prependTo(controls)
+          .appendTo(controls)
+           
         // add a click toggle event
         .click(function(e) {
           player.options.loop = !player.options.loop;
