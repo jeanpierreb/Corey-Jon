@@ -167,6 +167,17 @@ div.mejs-button.mejs-playpause-button.mejs-pause {
 	width:95px;
 }
 
+//Playlist sprite
+#screen-1 div.mejs-button.mejs-playlist-button.mejs-show-playlist,
+#screen-1 div.mejs-button.mejs-playlist-button.mejs-hide-playlist {
+	background: url(loud.png) no-repeat;
+}
+
+#screen-2 div.mejs-button.mejs-playlist-button.mejs-show-playlist,
+#screen-2 div.mejs-button.mejs-playlist-button.mejs-hide-playlist {
+	background: url(glue.png) no-repeat;
+}
+
 div.mejs-button.mejs-playlist-button.mejs-show-playlist,
 div.mejs-button.mejs-playlist-button.mejs-hide-playlist {
 	height:40px;
@@ -174,9 +185,8 @@ div.mejs-button.mejs-playlist-button.mejs-hide-playlist {
 	bottom:105px;
 	position:absolute;
 	background:blue;
-	// background:url(../img);
 	@include opacity;
-} 
+}
 
 .mejs-controls .mejs-button button {
 	cursor: pointer;
@@ -245,7 +255,7 @@ div.mejs-button.mejs-playlist-button.mejs-hide-playlist {
 .mejs-controls .mejs-pause button {
 	width:95px;
 	height:98px;
-	background-position: -48px 0;
+	background-position: -191px 0;
 	opacity: .3;
 	&:hover {
 		opacity: 1;

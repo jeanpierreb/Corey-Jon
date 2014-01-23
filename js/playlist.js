@@ -25,7 +25,10 @@
         '<button type="button" aria-controls="' + player.id + '" title="' + player.options.loopText + '"></button>' +
         '</div>')
         // append it to the toolbar
-        .appendTo(controls)
+        // 
+        // 
+        // .appendTo(controls)
+           .prependTo(controls)
         // add a click toggle event
         .click(function(e) {
           player.options.loop = !player.options.loop;

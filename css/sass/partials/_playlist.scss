@@ -14,6 +14,7 @@
 .mejs-controls .mejs-prevtrack button {
   width:48px;
   height:98px;
+  // margin-left: 55px;
   background: transparent url(playback2.png) no-repeat;
   background-position: 0 0;
   @include opacity;
@@ -43,34 +44,32 @@
 
 /*Start: Playlist*/
 .mejs-playlist {
-
   position: absolute;
   left: 0;
   height: 300px !important;
   overflow-y: auto;
-  // background: #000000;
-  opacity: 0.8;
+  overflow: visible;
+  width: 400px;
   
 }
 .mejs-playlist ul {
   margin: 0;
-  padding: 5px;
+  padding: 0;
 }
 .mejs-playlist li {
+  font-family: 'Open Sans Condensed', Arial, sans-serif;
   text-align: center;
+  width:100%;
   color: $white;
-  font-size: 16px;
-  height: 18px;
+  font-size: 2em;
+  line-height: 1.2em;
   overflow: hidden;
-  margin: 10px;
+  margin: 10px 0;
   cursor: pointer;
-  
-  &:hover {
-    color: #a8a8a8;
-  }
+
   
   &.current {
-    color: white;
-    font-weight: bold;
+    color: red;
+    
   }
 }
