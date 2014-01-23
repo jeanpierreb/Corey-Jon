@@ -1,8 +1,7 @@
 
 .mejs-container {
 	
-	position: relative; /* Can be removed for full width option*/
-	//background: #fff;
+	position: relative;
 	margin:0 auto;
 	font-family: Helvetica, Arial;
 	text-align: left;
@@ -170,8 +169,14 @@ div.mejs-button.mejs-playpause-button.mejs-pause {
 
 div.mejs-button.mejs-playlist-button.mejs-show-playlist,
 div.mejs-button.mejs-playlist-button.mejs-hide-playlist {
-	height:50px;
-}
+	height:40px;
+	width:100%;
+	bottom:105px;
+	position:absolute;
+	background:blue;
+	// background:url(../img);
+	@include opacity;
+} 
 
 .mejs-controls .mejs-button button {
 	cursor: pointer;

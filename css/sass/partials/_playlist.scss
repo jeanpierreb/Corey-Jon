@@ -1,5 +1,3 @@
-
-
 /* Start: Show/Hide Playlist*/
 .mejs-controls .mejs-show-playlist button,
 .mejs-controls .mejs-hide-playlist button {
@@ -59,12 +57,12 @@
   padding: 5px;
 }
 .mejs-playlist li {
-  border: 1px solid #facb18;
-  color: #facb18;
+  text-align: center;
+  color: $white;
   font-size: 16px;
   height: 18px;
   overflow: hidden;
-  margin: 2px;
+  margin: 10px;
   cursor: pointer;
   
   &:hover {

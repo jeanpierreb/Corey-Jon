@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Corey Jon - Crazy Loud</title>
+    <title>Corey Jon</title>
     <meta name="description" content="" />
     
     <meta name="keywords" content="" />
@@ -65,20 +65,6 @@
     </header>
 
     
-    <footer id="footer">
-        <audio id="mejs" type="audio/mp3" controls="controls">
-        <!-- Side A -->
-          <source src="music/side-a/all_night_long.mp3" title="All Night Long" />
-          <source src="music/side-a/one_minute.mp3" title="One Minute" />
-          <source src="music/side-a/renegade.mp3" title="Renegade" />
-          <source src="music/side-a/out_of_control_2175.mp3" title="Out of Control 2175" />
-        <!-- Side B -->
-          <source src="music/side-b/got_to_have_you.mp3" title="Got to Have You" />
-          <source src="music/side-b/matters.mp3" title="Matters" />
-          <source src="music/side-b/biggest_fan.mp3" title="Biggest Fan" />
-          <source src="music/side-b/crazy_glue.mp3" title="Crazy Glue" />
-        </audio>
-    </footer>
     
     
    
@@ -86,25 +72,29 @@
     <div class="wrapper">
         <div class="screen" id="screen-1" data-video="vid/loop_1.mov">
             <img src="img/preview.png" class="big-image" alt="Crazy Loud" />
-            <!-- <div class="mejs-playlist"> -->
-                <ul class="Side-A">
-                    <li>All Night Long</li>
-                    <li>One Minute</li>
-                    <li>Renegade</li>
-                    <li>Out of Control 2175</li>
-                </ul>
-            <!-- </div> -->
+            
+            <footer class="footer">
+                <audio id="mejs" type="audio/mp3" controls="controls">
+                <!-- Side A -->
+                  <source src="music/side-a/all_night_long.mp3" title="All Night Long" />
+                  <source src="music/side-a/one_minute.mp3" title="One Minute" />
+                  <source src="music/side-a/renegade.mp3" title="Renegade" />
+                  <source src="music/side-a/out_of_control_2175.mp3" title="Out of Control 2175" />
+                </audio>
+            </footer>
         </div>
+
         <div class="screen" id="screen-2" data-video="vid/loop_2.mov">
             <img src="img/preview_tour.jpg" class="big-image" alt="Can't Figure Me Out" />
-            <!-- <div class="mejs-playlist"> -->
-                <ul class="Side-B ">
-                    <li>Got to Have You</li>
-                    <li>Matters</li>
-                    <li>Biggest Fan</li>
-                    <li>Crazy Glue</li>
-                </ul>
-            <!-- </div> -->
+            <footer class="footer">
+                <audio id="mejs" type="audio/mp3" controls="controls">
+                  <source src="music/side-b/got_to_have_you.mp3" title="Got to Have You" />
+                  <source src="music/side-b/matters.mp3" title="Matters" />
+                  <source src="music/side-b/long_stroke.mp3" title="Long Stroke" />
+                  <source src="music/side-b/crazy_glue.mp3" title="Crazy Glue" />
+                </audio>
+            </footer>
+
         </div>
     </div>
     
@@ -143,7 +133,7 @@
           audioHeight: 98,
           audioWidth: 220,
           playlistposition: 'top',
-          features: ['playlistfeature', 'prevtrack', 'playpause', 'nexttrack'],
+          features: ['playlistfeature', 'prevtrack', 'playpause', 'nexttrack', 'playlist'],
               keyActions: []
           });
         });

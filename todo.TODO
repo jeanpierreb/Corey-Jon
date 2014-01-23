@@ -8,7 +8,14 @@
  ✔ change next button image @done (14-01-22 08:31)
  ✔ add previous button @done (14-01-22 09:14)
  ✔ audio player css-sprite @done (14-01-22 14:46)
- ☐ link playlists to text
- ☐ playlist show/hide button
+ ✔ Seperate audio eps @done (14-01-22 22:32)
+ ☐ style playlist
+ ☐ style playlist button
  ☐ loadingbar.js
  ☐ Add pause btn
+
+
+ ☐ Media Queries
+ ☐ Small Next Arrow
+ ☐ Animated gif for mobile
+ ☐ Single image sprite

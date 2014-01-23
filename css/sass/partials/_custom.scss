@@ -30,16 +30,8 @@
 
 }
 
-div.mejs-button.mejs-playlist-button.mejs-show-playlist,
-div.mejs-button.mejs-playlist-button.mejs-hide-playlist {
-	clear:left;
-	&:after {
-	
-	}
-} 
 
-
-#footer {
+.footer {
 	position:absolute;
 	width:100% ;
 	bottom:0;
@@ -87,13 +79,6 @@ nav#next-btn {
 	    position: relative;
 	    /*left: -5px;*/
 	    text-decoration: none;
-	}
-}
-
-.loud, .glue {
-	
-	h2 {
-
 	}
 }
 
