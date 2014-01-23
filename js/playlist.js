@@ -138,6 +138,7 @@
       var t = this;
       t.playlistToggle.trigger('click');
     },
+
     // PLAYLIST WINDOW
     buildplaylistfeature: function(player, controls, layers, media) {
       var playlist = $('<div class="mejs-playlist mejs-layer">' +
@@ -167,10 +168,10 @@
       var tracks = [];
       //$(media).children('source').each(function(index, element) { // doesn't work in Opera 12.12
       $('#'+player.id).find('.mejs-mediaelement source').each(function(index, element) {
-        if ($.trim(this.src) != '') {
+        if ($.trim(this.src) !== '') {
           var track = {};
           track.source = $.trim(this.src);
-          if ($.trim(this.title) != '') {
+          if ($.trim(this.title) !== '') {
             track.name = $.trim(this.title);
           }
           else {
