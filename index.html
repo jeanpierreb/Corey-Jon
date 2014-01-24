@@ -5,15 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Corey Jon</title>
     <meta name="description" content="" />
-    
     <meta name="keywords" content="" />
-    <meta name="viewport" content="width=device-width">
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'/> 
     <link rel="shortcut icon" href="../favicon.ico"> 
     <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700,300' rel='stylesheet' type='text/css' />
     <link rel="stylesheet" href="css/app.css">
     <link rel="stylesheet" href="css/font-awesome-4.0.3/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/bigvideo.css">
+    <link rel="stylesheet" href="css/style.css">
     <script src="js/modernizr-2.5.3.min.js"></script>
     <!--[if lte IE 8]>
     <style>
@@ -64,11 +63,6 @@
         </div>       
     </header>
 
-    
-    
-    
-   
-
     <div class="wrapper">
         <div class="screen" id="screen-1" data-video="vid/loop_1.mov">
             <img src="img/preview.png" class="big-image" alt="Crazy Loud" />
@@ -98,10 +92,6 @@
         </div>
     </div>
     
-    <!-- <nav id="prev-btn">
-        <a href="#" class="prev-icon"></a>
-    </nav> -->
-
     <nav id="next-btn">
         <a href="#" class="next-icon"></a>
     </nav>
@@ -173,6 +163,13 @@
                 // and on window resize
                 $window.on('resize', adjustImagePositioning);
             }
+            if (isTouch) {
+                $bigImage
+                    .css('position','relative')
+                    .imagesLoaded(adjustImagePositioning);
+                // and on window resize
+                $window.on('resize', adjustImagePositioning);   
+            }
             
             // Next button click goes to next div
             $('#next-btn').on('click', function(e) {
@@ -182,15 +179,6 @@
                 }
             });
 
-            // Previous button click goes to previous div
-            /*
-            $('#prev-btn').on('click', function(e) {
-                e.preventDefault();
-                if (!isTransitioning) {
-                    previous();
-                }
-            });            
-            */
 
             function showVideo() {
                 BV.show($('#screen-'+screenIndex).attr('data-video'),{ambient:true});

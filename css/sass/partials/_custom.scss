@@ -16,7 +16,6 @@
 	height:26px;
 
 	a span {
-
 		color:#FFF;
 		opacity:0.2;
 		&:hover {
@@ -57,28 +56,63 @@
 }
 
 /* Nav */
-
-nav#next-btn {
-    position: absolute;
-    right: 5%;
-    top: 40%;
-    padding: 0;
-    opacity: .2;
-    cursor: pointer;
-    z-index: 1000;
-    
-	&:hover {
-	    opacity:.9;
+@media (min-width:761px){
+	nav#next-btn {
+	    position: absolute;
+	    right: 5%;
+	    top: 40%;
+	    padding: 0;
+	    opacity: .2;
+	    cursor: pointer;
+	    z-index: 1000;
+	    
+		&:hover {
+		    opacity:.9;
+		}
+		
+		.next-icon {
+		    background: url(../img/arrow.png) 0 0;
+		    display: block;
+		    width: 55px;
+		    height: 186px;
+		    position: relative;
+		    text-decoration: none;
+		}
+		
 	}
-	
+}
+@media (max-width: 760px) 
+{
+	nav#next-btn {
+	    position: absolute;
+	    right: 5%;
+	    top: 45%;
+	    padding: 20px;
+	    background: #FFF;
+	    border-radius: 40px;
+	    opacity: .6;
+	    cursor: pointer;
+	    z-index: 1000;
+	}
+
+	nav:hover {
+	    opacity: .9;
+	}
+
 	.next-icon {
-	    background: url(../img/arrow.png) 0 0;
 	    display: block;
-	    width: 55px;
-	    height: 186px;
+	    border-top: solid 2px #e60f29;
+	    border-right: solid 2px #e60f29;
+	    width: 20px;
+	    height: 20px;
 	    position: relative;
-	    /*left: -5px;*/
+	    left: -5px;
+	    -webkit-transform: rotate(45deg);
+	    -moz-transform: rotate(45deg);
+	    -ms-transform: rotate(45deg);
+	    -o-transform: rotate(45deg);
+	    transform: rotate(45deg);
+	    color: #fff;
 	    text-decoration: none;
 	}
 }
-

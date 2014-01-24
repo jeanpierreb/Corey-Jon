@@ -1,0 +1,760 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"max",
+				"max-height"
+			],
+			[
+				"swip",
+				"swipe-wrap"
+			],
+			[
+				"margi",
+				"margin-left"
+			],
+			[
+				"backg",
+				"background"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"background",
+				"background-position"
+			],
+			[
+				"output",
+				"output_style"
+			],
+			[
+				"j",
+				"jPanelMenu"
+			],
+			[
+				"bootst",
+				"bootstrap"
+			],
+			[
+				"prec",
+				"precise64"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 9919,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 93.0,
+		"selected_items":
+		[
+			[
+				"pupp",
+				"Set Syntax: Puppet"
+			],
+			[
+				"syn php",
+				"Set Syntax: PHP"
+			],
+			[
+				"php ",
+				"Set Syntax: PHP"
+			],
+			[
+				"syn html	",
+				"Set Syntax: HTML"
+			],
+			[
+				"read",
+				"ReadmePlease"
+			],
+			[
+				"syn sas",
+				"Set Syntax: Sass"
+			],
+			[
+				"task",
+				"Tasks: New document"
+			],
+			[
+				"readme",
+				"ReadmePlease"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"synt sass",
+				"Set Syntax: Sass"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"livest",
+				"LiveStyle: Apply Patch"
+			],
+			[
+				"livestyle",
+				"LiveStyle: Install WebKit extension"
+			],
+			[
+				"ht",
+				"Set Syntax: HTML"
+			],
+			[
+				"html	",
+				"Set Syntax: HTML"
+			],
+			[
+				"ruby",
+				"Set Syntax: Ruby"
+			],
+			[
+				"bash",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"mark",
+				"Set Syntax: Markdown"
+			],
+			[
+				"task new",
+				"Tasks: New document"
+			],
+			[
+				"syntax mark",
+				"Set Syntax: Markdown"
+			],
+			[
+				"rub",
+				"Set Syntax: Ruby"
+			],
+			[
+				"puppet",
+				"Set Syntax: Puppet"
+			],
+			[
+				"ruby ",
+				"Set Syntax: Ruby"
+			],
+			[
+				"syntx ruby",
+				"Set Syntax: Ruby"
+			],
+			[
+				"synt h",
+				"Set Syntax: HTML"
+			]
+		],
+		"width": 435.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/jeanpierre/Documents/Websites/vagrantpress-master/wordpress/coreyjon/css/sass/partials/_bigvideo.scss",
+		"/Users/jeanpierre/Documents/Websites/vagrantpress-master/wordpress/coreyjon/css/style.css",
+		"/Users/jeanpierre/Documents/Websites/vagrantpress-master/wordpress/coreyjon/css/sass/partials/_custom.scss",
+		"/Users/jeanpierre/Documents/Websites/vagrantpress-master/wordpress/coreyjon/css/sass/app.scss",
+		"/Users/jeanpierre/Documents/Websites/vagrantpress-master/wordpress/coreyjon/assets/BigVideoSlideshow/css/style.css",
+		"/Users/jeanpierre/Documents/Websites/vagrantpress-master/wordpress/coreyjon/css/sass/partials/_swipe.scss",
+		"/Users/jeanpierre/Documents/Websites/vagrantpress-master/wordpress/swipe/style.css",
+		"/Users/jeanpierre/Documents/Websites/vagrantpress-master/wordpress/swipe/index.html",
+		"/Users/jeanpierre/Documents/Websites/vagrantpress-master/wordpress/coreyjon/js/swipe.js",
+		"/Users/jeanpierre/Dropbox/Sites/Working/Vagrantfile",
+		"/Users/jeanpierre/Documents/Websites/vagrant-examples-master/example5/sites/static-site/index.html",
+		"/Users/jeanpierre/Documents/Websites/vagrant-examples-master/example5/Vagrantfile",
+		"/Users/jeanpierre/Documents/Websites/vagrant-examples-master/example5/sites/index.html",
+		"/Users/jeanpierre/Documents/Websites/vagrant-examples-master/example4/puppet/manifests/site.pp",
+		"/Users/jeanpierre/Documents/Websites/vagrant/Vagrantfile",
+		"/Users/jeanpierre/Dropbox/Sites/UltraWP/todo.TODO",
+		"/Users/jeanpierre/.dotfiles/.aliases",
+		"/Users/jeanpierre/Documents/Websites/coreyjon/.gitignore",
+		"/Users/jeanpierre/Documents/Websites/coreyjon/Vagrantfile",
+		"/Users/jeanpierre/Documents/Websites/coreyjon/puphpet/config.yaml",
+		"/Users/jeanpierre/Desktop/index.php",
+		"/Users/jeanpierre/Desktop/coreyjon/index.html",
+		"/Users/jeanpierre/Desktop/coreyjon/css/sass/partials/_playlist.scss",
+		"/Users/jeanpierre/Desktop/coreyjon/css/sass/partials/_audio.scss",
+		"/Users/jeanpierre/Desktop/coreyjon/js/bigvideo.js",
+		"/Users/jeanpierre/Desktop/coreyjon/.htaccess",
+		"/Users/jeanpierre/Desktop/coreyjon/todo.TODO",
+		"/Users/jeanpierre/Desktop/coreyjon/js/playlist.js",
+		"/Users/jeanpierre/Desktop/coreyjon/css/sass/partials/_custom.scss",
+		"/Users/jeanpierre/Desktop/coreyjon/css/style.css",
+		"/Users/jeanpierre/Desktop/coreyjon/css/sass/partials/_variables.scss",
+		"/Users/jeanpierre/Desktop/coreyjon/css/sass/app.scss",
+		"/Users/jeanpierre/Desktop/coreyjon/css/font-awesome-4.0.3/scss/_variables.scss",
+		"/Users/jeanpierre/Desktop/coreyjon/css/sass/partials/_mixins.scss",
+		"/Users/jeanpierre/Library/Application Support/Sublime Text 2/Packages/AdvancedNewFile/README.md",
+		"/Users/jeanpierre/Downloads/BigVideoSlideshow/css/style.css",
+		"/Users/jeanpierre/Downloads/BigVideoSlideshow/index.html",
+		"/Users/jeanpierre/Desktop/coreyjon/css/bigvideo.css",
+		"/Users/jeanpierre/Desktop/coreyjon/js/media_player.js",
+		"/Users/jeanpierre/Desktop/coreyjon/alpha-site/todo.TODO",
+		"/Users/jeanpierre/Desktop/coreyjon/alpha-site/index.html",
+		"/Users/jeanpierre/Desktop/coreyjon/.gitignore",
+		"/Users/jeanpierre/Desktop/BigVideoSlideshow/index.html",
+		"/Users/jeanpierre/Desktop/website/todo.TODO",
+		"/Users/jeanpierre/Library/Application Support/Sublime Text 2/Packages/PlainTasks/Readme.md",
+		"/Users/jeanpierre/.dotfiles/README.md",
+		"/Users/jeanpierre/Desktop/wordpress/index.php",
+		"/Users/jeanpierre/Desktop/website/corey.sublime-project",
+		"/Users/jeanpierre/Desktop/website/css/sass/app.scss",
+		"/Users/jeanpierre/Desktop/website/css/sass/partials/_custom.scss",
+		"/Users/jeanpierre/Desktop/website/css/config.rb",
+		"/Users/jeanpierre/Desktop/website/css/sass/partials/_playlist.scss",
+		"/Users/jeanpierre/Desktop/website/.gitignore",
+		"/Users/jeanpierre/Desktop/website/css/sass/partials/_audio.scss",
+		"/Users/jeanpierre/Desktop/website/js/vendor/setup.js",
+		"/Users/jeanpierre/Desktop/website/index.html",
+		"/Users/jeanpierre/Dropbox/Sites/Corey/website/css/sass/app.scss",
+		"/Users/jeanpierre/Dropbox/Sites/Corey/website/index.html",
+		"/Users/jeanpierre/Desktop/bower_components/BigVideo/css/bigvideo.css",
+		"/Users/jeanpierre/Dropbox/Sites/Corey/web-alpha/css/app.css",
+		"/Users/jeanpierre/Dropbox/Sites/Corey/web-alpha/css/sass/partials/_bigvideo.scss",
+		"/Users/jeanpierre/Dropbox/Sites/Corey/web-alpha/css/config.rb",
+		"/Users/jeanpierre/Dropbox/Sites/Corey/web-alpha/css/sass/_audio.scss.css",
+		"/Users/jeanpierre/Dropbox/Sites/Corey/web-alpha/css/sass/main.scss",
+		"/Users/jeanpierre/Dropbox/Sites/Corey/web-alpha/css/sass/_video.scss",
+		"/Users/jeanpierre/Dropbox/Sites/Corey/web-alpha/css/sass/style.scss",
+		"/Users/jeanpierre/Dropbox/Sites/Corey/web-alpha/css/sass/base.scss",
+		"/Users/jeanpierre/Dropbox/Sites/Corey/web-alpha/css/sass/audio.scss",
+		"/Users/jeanpierre/Dropbox/Sites/Corey/web-alpha/js/vendor/bigvideo.js",
+		"/Users/jeanpierre/Dropbox/Sites/Corey/web-alpha/.gitignore",
+		"/Users/jeanpierre/Dropbox/Sites/Corey/web-alpha/css/sass/ie.scss",
+		"/Users/jeanpierre/Dropbox/Sites/Corey/web-alpha/css/sass/style.css",
+		"/Users/jeanpierre/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/jeanpierre/Dropbox/Sites/Corey/web-alpha/index.html",
+		"/Users/jeanpierre/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/jeanpierre/Dropbox/Sites/Corey/web-alpha/css/audiojs.css",
+		"/Users/jeanpierre/Dropbox/Sites/Corey/web-alpha/corey.html",
+		"/Users/jeanpierre/Dropbox/Sites/Corey/web-alpha/css/style.css",
+		"/Users/jeanpierre/Dropbox/Sites/Corey/web-alpha/css/custom.css",
+		"/Users/jeanpierre/Library/Application Support/Sublime Text 2/Packages/LiveStyle/README.md",
+		"/Users/jeanpierre/Dropbox/Sites/Corey/web-alpha/css/mediaelementplayer.min.css",
+		"/Users/jeanpierre/Desktop/johndyer-mediaelement-2d3aefc/build/mediaelementplayer.css",
+		"/Users/jeanpierre/Desktop/seven_vi/footer.php",
+		"/Users/jeanpierre/Desktop/seven_vi/header.php",
+		"/Users/jeanpierre/Dropbox/Sites/ZybraGroup/lib/js/custom.js",
+		"/Users/jeanpierre/Dropbox/Sites/ZybraGroup/index.html",
+		"/Users/jeanpierre/Dropbox/Sites/ZybraGroup/`lib/img/index.html",
+		"/Users/jeanpierre/Desktop/dbv-1.1/README.md",
+		"/Users/jeanpierre/Downloads/dbv-1.1/README.md",
+		"/Users/jeanpierre/Dropbox/Sites/PmjECF/hiera.yaml",
+		"/Users/jeanpierre/Dropbox/Sites/PmjECF/Vagrantfile",
+		"/Users/jeanpierre/Dropbox/Sites/Vagrant/Vagrantfile",
+		"/Users/jeanpierre/Dropbox/Sites/Working/www/index.html",
+		"/Users/jeanpierre/Dropbox/Sites/Working/.gitignore",
+		"/Users/jeanpierre/Dropbox/Sites/UltraWP/Vagrantfile",
+		"/Users/jeanpierre/Dropbox/Sites/DigitalOcean/Vagrantfile",
+		"/Users/jeanpierre/init/Preferences.sublime-settings",
+		"/Users/jeanpierre/Dropbox/Sites/Racker/Vagrantfile",
+		"/Users/jeanpierre/.aliases",
+		"/Users/jeanpierre/.bash_profile",
+		"/Users/jeanpierre/.bash_profle",
+		"/Users/jeanpierre/Dropbox/Sites/Provision/Vagrantfile",
+		"/Users/jeanpierre/Dropbox/Sites/Custom/Vagrantfile",
+		"/etc/hosts",
+		"/Users/jeanpierre/.ssh/known_hosts",
+		"/Users/jeanpierre/Dropbox/Sites/Racker/my_custom_key.pub",
+		"/Users/jeanpierre/Dropbox/Sites/Altitude/AUTHORS",
+		"/Users/jeanpierre/Dropbox/Sites/UltraWP/manifest/default.pp",
+		"/Users/jeanpierre/Dropbox/Sites/UltraWP/manifest/db/puphpet db/Vagrantfile",
+		"/Users/jeanpierre/Desktop/puphpet web/Vagrantfile",
+		"/Users/jeanpierre/Desktop/puphpet db/Vagrantfile",
+		"/Users/jeanpierre/Desktop/TEeW9H/Vagrantfile",
+		"/Users/jeanpierre/Sites/Code Resources/_src/Plugins/_Reference/WidgetKit/README.markdown",
+		"/Users/jeanpierre/Dropbox/Sites/Files/plugins/WidgetKit2/README.markdown",
+		"/Users/jeanpierre/Sites/Code Resources/_src/Plugins/_Reference/search/base.php",
+		"/Users/jeanpierre/Sites/Code Resources/_src/Plugins/_Reference/Reference/wkit/README.markdown",
+		"/Users/jeanpierre/Sites/beta/CHANGELOG.md",
+		"/Users/jeanpierre/Sites/beta/README.md",
+		"/Users/jeanpierre/Creative Cloud Files/Zybra Group/BKLYN!/WP Themes & Plugins/themes/index.php",
+		"/Users/jeanpierre/Desktop/WP Themes & Plugins/plugins/Support/js/wp_admin.js",
+		"/Users/jeanpierre/Sites/vip/www/wp-config.php",
+		"/Users/jeanpierre/Sites/vip/wbin/vip-init.bat",
+		"/Users/jeanpierre/Sites/bootstrap.sh",
+		"/Users/jeanpierre/Sites/Vagrantfile",
+		"/Users/jeanpierre/Documents/blog/wp-config-sample.php",
+		"/Users/jeanpierre/Library/Application Support/Sublime Text 2/Packages/Emmet/README.md",
+		"/Volumes/iBackup/Downloads/Sublime/Preferences.sublime-settings",
+		"/Users/jeanpierre/Library/Application Support/Sublime Text 2/Packages/SideBarEnhancements/messages/11.13.2012.1305.0.txt"
+	],
+	"find":
+	{
+		"height": 37.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"$bigImage",
+			"$(window).on('resize', adjustImagePositioning);",
+			".wrapper",
+			"#wrapper",
+			"fff",
+			"0",
+			"mp4",
+			"blue",
+			"play",
+			"playpause",
+			"1",
+			"2",
+			"appendTo",
+			"blue",
+			".mejs-playlist {",
+			"mejs-button.mejs-playlist-button.mejs-show-playlist",
+			"div.mejs-button.mejs-playlist-button.mejs-show-playlist,\ndiv.mejs-button.mejs-playlist-button.mejs-hide-playlist",
+			"div.mejs-button.mejs-playlist-button.mejs-show-playlist,\ndiv.mejs-button.mejs-playlist-button.mejs-hide-playlist {",
+			"playlist",
+			"#facb18",
+			"playlist",
+			"playliset",
+			".mejs-container",
+			"playlist",
+			"mep-playprevtrack",
+			"</Source>",
+			"</li>",
+			"div",
+			"p>",
+			"  opacity: .3;\n  &:hover {\n    opacity: 1;\n  }",
+			"playback",
+			"height:137px;",
+			"width:137px;",
+			"height:137px;",
+			"playback",
+			"playback.png",
+			".mejs-controls",
+			"next",
+			"next-icon",
+			"next-btn",
+			"next-icon",
+			"big-video-image",
+			"title",
+			"playlist",
+			"wrapper",
+			"root",
+			".",
+			"loop2",
+			"<a href=",
+			"\">",
+			"//color:",
+			"opacity: .2;",
+			"opacity:.2;",
+			";\n",
+			"<a href=\"\">",
+			"<span",
+			"color",
+			"&:hover {",
+			"};",
+			"alias",
+			"fa-inverse",
+			"-1x",
+			"1x",
+			"2x",
+			"a-inverse",
+			"red",
+			"140px",
+			"play",
+			".mejs-container .mejs-controls",
+			".mejs-container .mejs-controls div",
+			"show",
+			".mejs-container",
+			"mejs-inner",
+			"inner",
+			"mejs-inner",
+			"138",
+			"137px",
+			"101",
+			".mejs-container .mejs-controls",
+			"position: absolute;\nlist-style-type: none;\nmargin: 0;\npadding: 0;\nbottom: 0;\nleft: 0;\nheight: 30px;\nwidth: 100%;",
+			".mejs-play",
+			"mejs-button",
+			"controls-playlist.png",
+			"false",
+			" ",
+			"clear:both;",
+			"400",
+			"400px",
+			".mejs-container",
+			"2x",
+			"1x",
+			"\" t",
+			"source",
+			"./media/music",
+			"Reneag",
+			"play",
+			"mejs-playpause-button",
+			"_",
+			"';",
+			"base",
+			"<script",
+			"type=\"text/javascript\" ",
+			"href",
+			"import",
+			"Document",
+			"[/one_fourth]",
+			"[/se",
+			"[one_fourth]",
+			"fifth",
+			"carpentry",
+			"  ",
+			"• ",
+			"Document",
+			"Sites",
+			"sites",
+			"mysql",
+			"apache",
+			"Download",
+			"Doanload",
+			"Vagrant",
+			"nt"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 9919,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6149,
+								6149
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2176.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 37.0
+	},
+	"input":
+	{
+		"height": 37.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"audio",
+				"css/sass/partials/_audio.scss"
+			],
+			[
+				"playlist",
+				"css/sass/partials/_playlist.scss"
+			],
+			[
+				"bigvideo",
+				"js/bigvideo.js"
+			],
+			[
+				"play",
+				"css/sass/partials/_playlist.scss"
+			],
+			[
+				"custom",
+				"css/sass/partials/_custom.scss"
+			],
+			[
+				"pl",
+				"js/playlist.js"
+			],
+			[
+				"app.scs",
+				"css/sass/app.scss"
+			],
+			[
+				"vari",
+				"css/sass/partials/_variables.scss"
+			],
+			[
+				"todo",
+				"todo.TODO"
+			],
+			[
+				"style.css",
+				"css/style.css"
+			],
+			[
+				"varia",
+				"css/font-awesome-4.0.3/scss/_variables.scss"
+			],
+			[
+				"index",
+				"index.html"
+			],
+			[
+				"playli",
+				"js/playlist.js"
+			],
+			[
+				"styl",
+				"css/style.css"
+			],
+			[
+				"style",
+				"css/style.css"
+			],
+			[
+				"",
+				"css/style.css"
+			],
+			[
+				"bigvide",
+				"css/bigvideo.css"
+			],
+			[
+				"tot",
+				"todo.TODO"
+			],
+			[
+				"css/",
+				"css/sass/app.scss"
+			],
+			[
+				"otd",
+				"todo.TODO"
+			],
+			[
+				"app.scss",
+				"css/sass/app.scss"
+			],
+			[
+				"config",
+				"css/config.rb"
+			],
+			[
+				"_audio",
+				"css/sass/partials/_audio.scss"
+			],
+			[
+				"giti",
+				".gitignore"
+			],
+			[
+				"_audio.scss",
+				"css/sass/partials/_audio.scss"
+			],
+			[
+				"audio.scss",
+				"css/sass/partials/_audio.scss"
+			],
+			[
+				"cusom",
+				"/Users/jeanpierre/Dropbox/Sites/Corey/web-alpha/css/custom.css"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 247.0,
+	"status_bar_visible": true
+}
