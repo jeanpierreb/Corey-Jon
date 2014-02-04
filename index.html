@@ -26,7 +26,7 @@
 </head>
 <body>
 
-    
+<div class="mobile-only">
     <header>
         <h1 id="logo">Corey Jon</h1>
         <div class="social">
@@ -62,7 +62,7 @@
           </a>
         </div>       
     </header>
-
+</div>
     <div class="wrapper">
         <div class="screen" id="screen-1" data-video="vid/loop_1.mov">
             <img src="img/preview.png" class="big-image" alt="Crazy Loud" />
@@ -79,7 +79,7 @@
         </div>
 
         <div class="screen" id="screen-2" data-video="vid/loop_2.mov">
-            <img src="img/preview_tour.jpg" class="big-image" alt="Can't Figure Me Out" />
+            <img src="img/loader_2.jpg" class="big-image" alt="Can't Figure Me Out" />
             <footer class="footer">
                 <audio id="mejs" type="audio/mp3" controls="controls">
                   <source src="music/side-b/crazy_glue.mp3" title="Crazy Glue" />
@@ -119,11 +119,11 @@
       $('audio').mediaelementplayer({
           loop: false,
           shuffle: false,
-          playlist: true,
+          playlist: false,
           audioHeight: 98,
           audioWidth: 190,
           playlistposition: 'top',
-          features: ['playlistfeature', 'prevtrack', 'playpause', 'nexttrack', 'playlist'],
+          features: ['playlistfeature', 'playlist', 'prevtrack', 'playpause', 'nexttrack'],
               keyActions: []
           });
         });

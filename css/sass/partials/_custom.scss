@@ -1,33 +1,87 @@
-
-#logo {
-	background: url(../img/logo.png);
-	width: 180px; 
-	height: 86px;
-	top:15px;
-	right:15px;
-	position:absolute;
-	text-indent:-9999px;
-
-}
-
-.social{
-	margin:125px 25px 0 0;
-	float:right;
-	height:26px;
-
-	a span {
-		color:#FFF;
-		opacity:0.2;
-		&:hover {
-			opacity: 1;
-		}
+@media (min-width: 761px) {
+	#logo {
+		background: url(../img/logo.png);
+		width: 180px; 
+		height: 86px;
+		top:15px;
+		right:15px;
+		position:absolute;
+		text-indent:-9999px;
 	}
 
-	.fa-black {
-		color:#000
-	}	
+	.social{
+		margin:125px 25px 0 0;
+		float:right;
+		height:43px;
+
+		a span {
+			color:#FFF;
+			opacity:0.2;
+			&:hover {
+				opacity: 1;
+			}
+		}
+
+		.fa-black {
+			color:#000
+		}	
+
+	}
+
+	header {
+	    position: absolute;
+	    top: 5px;
+	    right: 5px;
+	    z-index: 999;
+	    width: 400px;
+	    height: 200px;
+	}
+
 
 }
+
+//Mobile Version
+@media (max-width : 760px) { 
+	#logo {
+		text-align:center;
+		background: url(../img/logo-small.png);
+		height: 52px;
+		margin: 0 auto;
+		text-indent:-9999px;
+	}
+
+	.social{
+		width: 226px;
+		margin:0 auto;
+		height:43px;
+
+		a span {
+			color:#FFF;
+			@include opacity;
+		}
+
+		.fa-black {
+			color:#000
+		}	
+
+	}
+
+	header {
+	    width: 320px;
+	    height: 100px;
+	    margin: 0 auto;
+	}
+
+	.mobile-only {
+		height: 100px;
+	    position:absolute;
+	    // display: block;
+		width: 100%;
+	    z-index: 99999;
+	}
+
+}
+
 
 
 .footer {
@@ -35,14 +89,13 @@
 	width:100% ;
 	bottom:0;
 	left:0;
-	height: 125px;
 	z-index: 1000;
 }
 
 .Side-A, .Side-B {
 	position: absolute;
     bottom: 150px;
-    width:100%;
+    width:200%;
     text-align: center;
     line-height: 1.1;
     font-size: 2.5em;
@@ -55,7 +108,6 @@
     }
 }
 
-/* Nav */
 @media (min-width:761px){
 	nav#next-btn {
 	    position: absolute;
@@ -80,6 +132,10 @@
 		}
 		
 	}
+
+	.footer {
+		height: 125px;
+	}
 }
 @media (max-width: 760px) 
 {
@@ -88,15 +144,13 @@
 	    right: 5%;
 	    top: 45%;
 	    padding: 20px;
-	    background: #FFF;
+	    // background: #FFF;
 	    border-radius: 40px;
 	    opacity: .6;
 	    cursor: pointer;
 	    z-index: 1000;
-	}
 
-	nav:hover {
-	    opacity: .9;
+	    @include opacity;
 	}
 
 	.next-icon {
@@ -112,7 +166,11 @@
 	    -ms-transform: rotate(45deg);
 	    -o-transform: rotate(45deg);
 	    transform: rotate(45deg);
-	    color: #fff;
+	    // color: #fff;
 	    text-decoration: none;
+	}
+
+	.footer {
+		height: 78px;
 	}
 }
