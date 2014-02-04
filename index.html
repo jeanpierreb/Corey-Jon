@@ -7,7 +7,7 @@
     <meta name="description" content="" />
     <meta name="keywords" content="" />
     <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'/> 
-    <link rel="shortcut icon" href="../favicon.ico"> 
+    <link rel="shortcut icon" href="img/favicon.ico"> 
     <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700,300' rel='stylesheet' type='text/css' />
     <link rel="stylesheet" href="css/app.css">
     <link rel="stylesheet" href="css/font-awesome-4.0.3/css/font-awesome.min.css">
@@ -70,7 +70,7 @@
             <footer class="footer">
                 <audio id="mejs" type="audio/mp3" controls="controls">
                 <!-- Side A -->
-                  <source src="music/side-a/all_night_long.mp3" title="All Night Long" />
+                  <source src="music/side-a/crazy_loud.mp3" title="Crazy Loud" />
                   <source src="music/side-a/one_minute.mp3" title="One Minute" />
                   <source src="music/side-a/renegade.mp3" title="Renegade" />
                   <source src="music/side-a/out_of_control_2175.mp3" title="Out of Control" />
@@ -82,10 +82,10 @@
             <img src="img/preview_tour.jpg" class="big-image" alt="Can't Figure Me Out" />
             <footer class="footer">
                 <audio id="mejs" type="audio/mp3" controls="controls">
-                  <source src="music/side-b/got_to_have_you.mp3" title="Got to Have You" />
-                  <source src="music/side-b/matters.mp3" title="Matters" />
-                  <source src="music/side-b/long_stroke.mp3" title="Long Stroke" />
                   <source src="music/side-b/crazy_glue.mp3" title="Crazy Glue" />
+                  <source src="music/side-b/long_stroke.mp3" title="Long Stroke" />
+                  <source src="music/side-b/matters.mp3" title="Matters" />
+                  <source src="music/side-b/got_to_have_you.mp3" title="Got to Have You" />
                 </audio>
             </footer>
 
@@ -119,7 +119,7 @@
       $('audio').mediaelementplayer({
           loop: false,
           shuffle: false,
-          playlist: false,
+          playlist: true,
           audioHeight: 98,
           audioWidth: 190,
           playlistposition: 'top',
