@@ -14,6 +14,83 @@
     <link rel="stylesheet" href="css/bigvideo.css">
     <link rel="stylesheet" href="css/style.css">
     <script src="js/modernizr-2.5.3.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+    <script src="js/jquery.jplayer.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery-1.8.1.min.js"><\/script>')</script>
+    <script src="js/jquery-ui-1.8.22.custom.min.js"></script>
+    <script src="js/jquery.imagesloaded.min.js"></script>
+    <script src="http://vjs.zencdn.net/c/video.js"></script>
+    <script src="js/bigvideo.js"></script>
+    <script src="js/jquery.transit.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+        
+            var myPlaylist = new jPlayerPlaylist({
+                jPlayer: "#jquery_jplayer_1",
+                cssSelectorAncestor: "#jp_container_1"
+            },[{    title:"Crazy Loud",
+                    free: false,
+                    mp3: "./music/side-a/crazy_loud.mp3",
+                    oga: "./music/side-a/crazy_loud.oga"
+                }, {title:"One Minute",
+                    free: false,
+                    mp3: "./music/side-a/one_minute.mp3",
+                    oga: "./music/side-a/one_minute.oga"
+                }, {title:"Renegade",
+                    free: false,
+                    mp3: "./music/side-a/renegade.mp3",
+                    oga: "./music/side-a/renegade.oga"
+                }, {title:"Out of Control",
+                    free: false,
+                    mp3: "./music/side-a/out_of_control_2175.mp3",
+                    oga: "./music/side-a/out_of_control_2175.oga"
+                }],
+            {   playlistOptions:{},
+                swfPath: "/js",
+                supplied: "mp3, oga",
+                smoothPlayBar: false,
+                keyEnabled: true,
+                audioFullScreen: false,
+                repeat: true
+            });
+        $(".jp-next").click(function() {myPlaylist.next();});
+        $(".jp-previous").click(function() {myPlaylist.previous();});
+
+        
+            var myPlaylist2 = new jPlayerPlaylist({
+                jPlayer: "#jquery_jplayer_2",
+                cssSelectorAncestor: "#jp_container_2"
+            },[{    title:"Crazy Glue",
+                    free: false,
+                    mp3: "./music/side-b/crazy_glue.mp3",
+                    oga: "./music/side-b/crazy_glue.oga"
+                }, {title:"Long Stroke",
+                    free: false,
+                    mp3: "./music/side-b/long_stroke.mp3",
+                    oga: "./music/side-b/long_stroke.oga"
+                }, {title:"Matters",
+                    free: false,
+                    mp3: "./music/side-b/matters.mp3",
+                    oga: "./music/side-b/matters.oga"
+                }, {title:"Got to Have You",
+                    free: false,
+                    mp3: "./music/side-b/got_to_have_you.mp3",
+                    oga: "./music/side-b/got_to_have_you.oga"
+                }],
+            {   playlistOptions:{loopOnPrevious: true, shuffleOnLoop: false},
+                swfPath: "/js",
+                supplied: "mp3, oga",
+                smoothPlayBar: true,
+                keyEnabled: false,
+                audioFullScreen: false
+            });
+        $("#playlist2-next").click(function() {myPlaylist2.next();});
+        $("#playlist2-previous").click(function() {myPlaylist2.previous();});
+        });
+        
+    </script>
+
     <!--[if lte IE 8]>
     <style>
         /* Rotation of the arrow element for IE < 9 */
@@ -71,30 +148,76 @@
 </div>
     <div class="wrapper">
         <div class="screen" id="screen-1" data-video="vid/loop_1.mov">
-            <img src="img/loader_1.jpg" class="big-image" alt="Crazy Loud" />
-            
+            <img src="img/loop_1.jpg" class="big-image" id="crazy_loud_image" alt="Crazy Loud" />
             <footer class="footer">
-                <audio id="mejs" type="audio/mp3" controls="controls">
-                <!-- Side A -->
-                  <source src="music/side-a/crazy_loud.mp3" title="Crazy Loud" />
-                  <source src="music/side-a/one_minute.mp3" title="One Minute" />
-                  <source src="music/side-a/renegade.mp3" title="Renegade" />
-                  <source src="music/side-a/out_of_control_2175.mp3" title="Out of Control" />
-                </audio>
+                <section id="crazy_loud">
+                    <div id="jquery_jplayer_1" class="jp-jplayer"></div>
+                    <div id="jp_container_1" class="jp-audio">
+                        <div class="jp-type-playlist">
+                            <div class="jp-gui jp-interface">
+                                <div class="jp-playlist">
+                                    <ul>
+                                        <li></li> <!-- Empty <li> so your HTML conforms with the W3C spec -->
+                                    </ul>
+                                </div>
+                                <div class="jp-progress">
+                                    <div class="jp-seek-bar">
+                                        <div class="jp-play-bar"></div>
+                                    </div>
+                                </div>          
+                                <ul class="jp-controls">
+                                    <li><a href="javascript:;" id="playlist-previous" class="jp-previous" tabindex="1"><i class="fa fa-backward fa-4x "></i></a></li>
+                                    <li><a href="javascript:;" class="jp-play" tabindex="1"><i class="fa fa-play fa-4x"></i></a></li>
+                                    <li><a href="javascript:;" class="jp-pause" tabindex="1"><i class="fa fa-pause fa-4x"></i></a></li>
+                                    <li><a href="javascript:;" id="playlist-next" class="jp-next" tabindex="1"><i class="fa fa-forward fa-4x "></i></a></li>
+                                </ul>
+                            </div>
+                            <div class="jp-no-solution">
+                                <span>Update Required</span>
+                                To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>.
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div id="jplayer_inspector_1"></div> -->
+                </section>
             </footer>
         </div>
 
         <div class="screen" id="screen-2" data-video="vid/loop_2.mov">
-            <img src="img/loader_2.jpg" class="big-image" alt="Can't Figure Me Out" />
+            <img src="img/loop_2.jpg" class="big-image" id="crazy_glue_image" alt="Can't Figure Me Out" />
             <footer class="footer">
-                <audio id="mejs" type="audio/mp3" controls="controls">
-                  <source src="music/side-b/crazy_glue.mp3" title="Crazy Glue" />
-                  <source src="music/side-b/long_stroke.mp3" title="Long Stroke" />
-                  <source src="music/side-b/matters.mp3" title="Matters" />
-                  <source src="music/side-b/got_to_have_you.mp3" title="Got to Have You" />
-                </audio>
-            </footer>
+                <section id="crazy_glue">
+                    <div id="jquery_jplayer_2" class="jp-jplayer"></div>
+                    <div id="jp_container_2" class="jp-audio">
+                        <div class="jp-type-playlist">
+                            <div class="jp-gui jp-interface">
+                                <div class="jp-playlist">
+                                    <ul>
+                                        <li></li> <!-- Empty <li> so your HTML conforms with the W3C spec -->
+                                    </ul>
+                                </div>
+                                <div class="jp-progress">
+                                    <div class="jp-seek-bar">
+                                        <div class="jp-play-bar"></div>
+                                    </div>
+                                </div>
+                                <ul class="jp-controls">
+                                    <li><a href="javascript:;" id="playlist2-previous" class="jp-previous" tabindex="1"><i class="fa fa-backward fa-4x"></i></a></li>
+                                    <li><a href="javascript:;" class="jp-play" tabindex="1"><i class="fa fa-play fa-4x"></i></a></li>
+                                    <li><a href="javascript:;" class="jp-pause" tabindex="1"><i class="fa fa-pause fa-4x"></i></a></li>
+                                    <li><a href="javascript:;" id="playlist2-next" class="jp-next" tabindex="1"><i class="fa fa-forward fa-4x "></i></a></li>
+                                </ul>
 
+                            </div>
+                            <div class="jp-no-solution">
+                                <span>Update Required</span>
+                                To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>.
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div id="jplayer_inspector_2"></div> -->
+                </section>
+            </footer>
         </div>
     </div>
     
@@ -102,39 +225,7 @@
         <a href="#" class="next-icon"></a>
     </nav>
 
-    <!-- BigVideo Dependencies -->
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="js/jquery-1.8.1.min.js"><\/script>')</script>
-    // <script src="js/jquery-ui-1.8.22.custom.min.js"></script>
-    <script src="js/jquery.imagesloaded.min.js"></script>
-    <script src="http://vjs.zencdn.net/c/video.js"></script>
 
-    <!-- BigVideo -->
-    <script src="js/bigvideo.js"></script>
-
-    <!-- Tutorial Demo -->
-    <script src="js/jquery.transit.min.js"></script>
-
-    <!-- Audio Scripts -->
-    <script src="js/media_player.js"></script>
-    <script src="js/playlist.js"></script>
-
-    <!-- Initialize Music Player -->
-    <script>
-            $(function(){
-      $('audio').mediaelementplayer({
-          loop: false,
-          shuffle: false,
-          playlist: false,
-          audioHeight: 98,
-          audioWidth: 190,
-          playlistposition: 'top',
-          features: ['playlistfeature', 'playlist', 'prevtrack', 'playpause', 'nexttrack'],
-              keyActions: []
-          });
-        });
-    </script>
-    <!-- End Player Initialization -->
 
     <script>
         $(function() {
@@ -173,8 +264,13 @@
                 $bigImage
                     .css('position','relative')
                     .imagesLoaded(adjustImagePositioning);
-                // and on window resize
-                $window.on('resize', adjustImagePositioning);   
+                // and on window resize and orientation change
+                
+                $('#crazy_loud_image').attr('src', 'img/loop_1.gif');
+                $('#crazy_glue_image').attr('src', 'img/loop_2.gif');
+
+                $window.on('resize', adjustImagePositioning);
+                $window.on('orientationchange', adjustImagePositioning);
             }
             
             // Next button click goes to next div
@@ -225,7 +321,7 @@
                     showVideo();
                 }
             }
-
+            $(window).bind('orientationchange', adjustImagePositioning);
             function adjustImagePositioning() {
                 $bigImage.each(function(){
                     var $img = $(this),
@@ -262,5 +358,7 @@
             }
         });
     </script>
+
+
 </body>
 </html>

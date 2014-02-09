@@ -36,8 +36,6 @@
 	    width: 400px;
 	    height: 200px;
 	}
-
-
 }
 
 //Mobile Version
@@ -75,14 +73,10 @@
 	.mobile-only {
 		height: 100px;
 	    position:absolute;
-	    // display: block;
 		width: 100%;
 	    z-index: 99999;
 	}
-
 }
-
-
 
 .footer {
 	position:absolute;
@@ -101,72 +95,39 @@
     font-size: 2.5em;
     text-transform: uppercase;
     cursor: pointer;
-	
     
     li {
     	@include opacity;	
     }
 }
 
-@media (min-width:761px){
-	nav#next-btn {
-	    position: absolute;
-	    right: 5%;
-	    top: 40%;
-	    padding: 0;
-	    opacity: .2;
-	    cursor: pointer;
-	    z-index: 1000;
-	    
-		@include opacity;
-		
-		.next-icon {
-		    background: url(../img/arrow.png) 0 0;
-		    display: block;
-		    width: 55px;
-		    height: 186px;
-		    position: relative;
-		    text-decoration: none;
-		}
-		
-	}
 
-	.footer {
-		height: 125px;
-	}
+nav#next-btn {
+    position: absolute;
+    right: 5%;
+    top: 45%;
+    padding: 20px;
+    background: #FFF;
+    border-radius: 40px;
+    cursor: pointer;
+    z-index: 1000;
+    
+    @include opacity; 
 }
-@media (max-width: 760px) 
-{
-	nav#next-btn {
-	    position: absolute;
-	    right: 5%;
-	    top: 45%;
-	    padding: 20px;
-	    background: #FFF;
-	    border-radius: 40px;
-	    cursor: pointer;
-	    z-index: 1000;
-	    
-	    @include opacity; 
-	}
 
-	.next-icon {
-	    display: block;
-	    border-top: solid 2px #e60f29;
-	    border-right: solid 2px #e60f29;
-	    width: 20px;
-	    height: 20px;
-	    position: relative;
-	    left: -5px;
-	    -webkit-transform: rotate(45deg);
-	    -moz-transform: rotate(45deg);
-	    -ms-transform: rotate(45deg);
-	    -o-transform: rotate(45deg);
-	    transform: rotate(45deg);
-	    text-decoration: none;
-	}
-
-	.footer {
-		height: 78px;
-	}
+.next-icon {
+    display: block;
+    border-top: solid 2px #e60f29;
+    border-right: solid 2px #e60f29;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    left: -5px;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    text-decoration: none;
 }
+
