@@ -1,9 +1,5 @@
 @mixin opacity {
-	opacity: 0.3;
-	transition: opacity .25s ease-in-out;
-	-moz-transition: opacity .25s ease-in-out;
-	-webkit-transition: opacity .25s ease-in-out;
-
+	opacity: .3;
 	&:hover {
 		opacity: 1;
 	}

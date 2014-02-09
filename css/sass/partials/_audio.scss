@@ -3,13 +3,13 @@ li {list-style:none;}
 .jp-pause, .jp-play, .jp-next, .jp-previous {
 	float:left;
 	margin:0;
+	padding:0;
+	border:none;
 }
 
-a.jp-pause i::before, a.jp-play i::before, a.jp-next i::before, a.jp-previous {
-	-moz-box-shadow:    inset 0 0 10px #000000;
-   -webkit-box-shadow: inset 0 0 10px #000000;
-   box-shadow:         inset 0 0 10px #000000;
-}
+// a.jp-pause i::before, a.jp-play i::before, a.jp-next i::before, a.jp-previous {
+
+// }
 
 
 .footer i {color:white;}
@@ -56,7 +56,7 @@ a.jp-pause i::before, a.jp-play i::before, a.jp-next i::before, a.jp-previous {
 	}
 	.jp-controls {
 		margin:0 auto;
-		width:263px;
+		width:265px;
 	}
 }
 
