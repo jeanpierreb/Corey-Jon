@@ -25,6 +25,15 @@
 
     <script>
         $(document).ready(function(){
+
+            var playlistOptions = {   playlistOptions:{},
+                swfPath: "/js",
+                supplied: "mp3, oga",
+                smoothPlayBar: false,
+                keyEnabled: true,
+                audioFullScreen: false,
+                repeat: true
+            };
         
             var myPlaylist = new jPlayerPlaylist({
                 jPlayer: "#jquery_jplayer_1",
@@ -46,16 +55,9 @@
                     mp3: "./music/side-a/out_of_control_2175.mp3",
                     oga: "./music/side-a/out_of_control_2175.oga"
                 }],
-            {   playlistOptions:{},
-                swfPath: "/js",
-                supplied: "mp3, oga",
-                smoothPlayBar: false,
-                keyEnabled: true,
-                audioFullScreen: false,
-                repeat: true
-            });
-        $(".jp-next").click(function() {myPlaylist.next();});
-        $(".jp-previous").click(function() {myPlaylist.previous();});
+            playlistOptions);
+        $("#playlist-next1").click(function() {myPlaylist.next();});
+        $("#playlist-previous1").click(function() {myPlaylist.previous();});
 
         
             var myPlaylist2 = new jPlayerPlaylist({
@@ -78,13 +80,8 @@
                     mp3: "./music/side-b/got_to_have_you.mp3",
                     oga: "./music/side-b/got_to_have_you.oga"
                 }],
-            {   playlistOptions:{loopOnPrevious: true, shuffleOnLoop: false},
-                swfPath: "/js",
-                supplied: "mp3, oga",
-                smoothPlayBar: true,
-                keyEnabled: false,
-                audioFullScreen: false
-            });
+            playlistOptions);
+
         $("#playlist2-next").click(function() {myPlaylist2.next();});
         $("#playlist2-previous").click(function() {myPlaylist2.previous();});
         });
@@ -166,10 +163,10 @@
                                     </div>
                                 </div>          
                                 <ul class="jp-controls">
-                                    <li><a href="javascript:;" id="playlist-previous" class="jp-previous" tabindex="1"><i class="fa fa-backward fa-4x "></i></a></li>
+                                    <li><a href="javascript:;" id="playlist-previous1" class="jp-previous" tabindex="1"><i class="fa fa-backward fa-4x "></i></a></li>
                                     <li><a href="javascript:;" class="jp-play" tabindex="1"><i class="fa fa-play fa-4x"></i></a></li>
                                     <li><a href="javascript:;" class="jp-pause" tabindex="1"><i class="fa fa-pause fa-4x"></i></a></li>
-                                    <li><a href="javascript:;" id="playlist-next" class="jp-next" tabindex="1"><i class="fa fa-forward fa-4x "></i></a></li>
+                                    <li><a href="javascript:;" id="playlist-next1" class="jp-next" tabindex="1"><i class="fa fa-forward fa-4x "></i></a></li>
                                 </ul>
                             </div>
                             <div class="jp-no-solution">
