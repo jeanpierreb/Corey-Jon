@@ -7,11 +7,8 @@ li {list-style:none;}
 	border:none;
 }
 
-// a.jp-pause i::before, a.jp-play i::before, a.jp-next i::before, a.jp-previous {
-
-// }
-
-
+.footer section#crazy_loud i {color:#e6e5e4;}
+.footer section#crazy_glue i {color:#0374e6}
 .footer i {color:white;}
 
 @media (max-width:699px){
@@ -41,6 +38,8 @@ li {list-style:none;}
 @media (min-width:700px){
 	a.jp-play, a.jp-pause {
 		margin:0 45px;
+		width:50px;
+		text-align:center;
 	}
 	.footer { height: 180px;}
 
@@ -68,11 +67,7 @@ li {list-style:none;}
 }
 section{ text-align: center;}
 
-/*
-* The width for this element needs to be fluid
-* 
-*/
-
+/* The width for this element needs to be fluid */
 .jp-progress {
 	overflow:hidden;
 	background-color: #ddd;
