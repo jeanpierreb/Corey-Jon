@@ -1,10 +1,11 @@
-/music
+#/music
 /assets
-/img
-/vid
+#/img
+#/vid
 /css/.sass-cache
 /alpha-site
 todo.TODO
-*.jpg
-*.png
-*.gif
+#*.jpg
+#*.png
+#*.gif
+*.zip
