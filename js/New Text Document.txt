@@ -14,7 +14,9 @@ requirejs.config({
 
         'transit': "../js/jquery.transit.min",
 
-        'jplayer': "../js/jquery.jplayer.min"
+        'jplayer': "../js/jquery.jplayer.min",
+
+        'jplayer-inspector': "../js/jquery.jplayer.inspector"
     },
 
     shim: {
@@ -64,6 +66,12 @@ requirejs.config({
             deps: ['jquery'],
 
             exports: 'jplayer'
+        },
+
+        'jplayer-inspector': {
+            deps: ['jquery'],
+
+            exports: 'jplayer-inspector'
         }
     },
 });
@@ -78,6 +86,8 @@ require([
    'imagesloaded',
 
    'jplayer',
+   
+   'jplayer-inspector',
 
    'video',
 
