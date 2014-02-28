@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"jplayer",
+				"jplayer_inspector_1"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"screen",
+				"screenIndex"
+			],
+			[
 				"max",
 				"max-height"
 			],
@@ -47,13 +59,30 @@
 	},
 	"buffers":
 	[
+		{
+			"contents": "Back Yard\nFamily Room\nGarage\nFoyer\nLiving Room\nKitchen\nDinning Room\nStairs\nBedroom\nMaster Bedroom & Bath\nHallway\nGuest Room\nLisa's Bathroom\nLisa's Room",
+			"settings":
+			{
+				"buffer_size": 151,
+				"line_ending": "Unix",
+				"name": "Back Yard"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 71.0,
+		"height": 115.0,
 		"selected_items":
 		[
+			[
+				"task",
+				"Tasks: New document"
+			],
+			[
+				"sass",
+				"Set Syntax: Sass"
+			],
 			[
 				"bash",
 				"Set Syntax: Shell Script (Bash)"
@@ -85,10 +114,6 @@
 			[
 				"syn sas",
 				"Set Syntax: Sass"
-			],
-			[
-				"task",
-				"Tasks: New document"
 			],
 			[
 				"readme",
@@ -180,32 +205,49 @@
 	},
 	"file_history":
 	[
+		"/Users/jeanpierre/Documents/Websites/vagrantpress-master/wordpress/coreyjon/index.html",
+		"/Users/jeanpierre/Documents/Websites/vagrantpress-master/wordpress/coreyjon/js/modernizr-2.5.3.min.js",
+		"/Users/jeanpierre/Documents/Websites/vagrantpress-master/wordpress/coreyjon/.giti",
+		"/Users/jeanpierre/Documents/Websites/vagrantpress-master/wordpress/coreyjon/.gitignore",
 		"/Users/jeanpierre/Documents/Websites/vagrantpress-master/wordpress/coreyjon/todo.TODO",
+		"/Users/jeanpierre/Documents/Websites/vagrantpress-master/wordpress/coreyjon/css/sass/partials/_audio.scss",
+		"/Users/jeanpierre/Documents/Websites/vagrantpress-master/wordpress/coreyjon/assets/Launch/audio/assets/css/audio.css",
+		"/Users/jeanpierre/Documents/Websites/vagrantpress-master/wordpress/coreyjon/css/sass/app.scss",
+		"/Users/jeanpierre/Documents/Websites/vagrantpress-master/wordpress/coreyjon/css/sass/partials/_mixins.scss",
+		"/Users/jeanpierre/Documents/Websites/vagrantpress-master/wordpress/coreyjon/css/sass/partials/_variables.scss",
+		"/Users/jeanpierre/Projects/ayiticheri/config.rb",
+		"/Users/jeanpierre/.dotfiles/.aliases",
+		"/Users/jeanpierre/Documents/Websites/vagrantpress-master/wordpress/coreyjon/css/sass/partials/_bigvideo.scss",
+		"/Users/jeanpierre/Documents/Websites/vagrantpress-master/wordpress/coreyjon/css/style.css",
+		"/Users/jeanpierre/Documents/Websites/vagrantpress-master/wordpress/coreyjon/css/sass/partials/_custom.scss",
+		"/Users/jeanpierre/Documents/Websites/vagrantpress-master/wordpress/coreyjon/css/sass/partials/_style.scss",
+		"/Users/jeanpierre/Documents/Websites/vagrantpress-master/wordpress/coreyjon/css/font-awesome-4.0.3/scss/_variables.scss",
+		"/Users/jeanpierre/Documents/Websites/vagrantpress-master/wordpress/coreyjon/css/config.rb",
+		"/Users/jeanpierre/Documents/Websites/vagrantpress-master/wordpress/coreyjon/css/font-awesome-4.0.3/scss/_mixins.scss",
+		"/Users/jeanpierre/Documents/Websites/vagrantpress-master/wordpress/coreyjon/css/sass/partials/_style.scss.css",
+		"/Users/jeanpierre/Documents/Websites/vagrantpress-master/wordpress/coreyjon/css/bigvideo.css",
+		"/Users/jeanpierre/Documents/Websites/vagrantpress-master/README.md",
+		"/Users/jeanpierre/Documents/Websites/vagrantpress-master/wordpress/wp-config.php",
+		"/Users/jeanpierre/Documents/Websites/vagrantpress-master/wordpress/coreyjon/css/.sass-cache/ae02c8ad7c2e64923f31eb756973e18daaf02da9/_audio.scssc",
+		"/Users/jeanpierre/Documents/Websites/vagrantpress-master/wordpress/coreyjon/js/jquery.transit.min.js",
+		"/Users/jeanpierre/Documents/Websites/vagrantpress-master/wordpress/coreyjon/css/font-awesome-4.0.3/scss/font-awesome.scss",
+		"/Users/jeanpierre/Documents/Websites/vagrantpress-master/wordpress/coreyjon/css/font-awesome-4.0.3/css/font-awesome.css",
+		"/Users/jeanpierre/Documents/Websites/vagrantpress-master/wordpress/coreyjon/css/app.css",
+		"/Users/jeanpierre/Documents/Websites/vagrantpress-master/wordpress/Launch/audio/assets/css/font-awesome-4.0.3/less/mixins.less",
+		"/Users/jeanpierre/Desktop/Launch/audio/index.html",
 		"/Users/jeanpierre/Documents/Websites/vagrantpress-master/wordpress/coreyjon/assets/music-player/demo/js/myplaylist2.js",
 		"/Users/jeanpierre/Documents/Websites/vagrantpress-master/wordpress/coreyjon/assets/music-player/demo/index.html",
 		"/Users/jeanpierre/Documents/Websites/vagrantpress-master/wordpress/coreyjon/assets/jQuery.jPlayer.2.5.0/index.html",
 		"/Users/jeanpierre/Documents/Websites/vagrantpress-master/wordpress/coreyjon/assets/music-player/demo/js/myplaylist.js",
-		"/Users/jeanpierre/Documents/Websites/vagrantpress-master/wordpress/coreyjon/index.html",
 		"/Users/jeanpierre/Documents/Websites/vagrantpress-master/wordpress/coreyjon/js/playlist.js",
 		"/Users/jeanpierre/Documents/Websites/vagrantpress-master/wordpress/coreyjon/js/media_player.js",
-		"/Users/jeanpierre/Documents/Websites/vagrantpress-master/wordpress/coreyjon/css/sass/partials/_custom.scss",
 		"/Users/jeanpierre/Documents/Websites/vagrantpress-master/wordpress/coreyjon/js/video.min.js",
 		"/Users/jeanpierre/Downloads/video-js/video.js",
 		"/Users/jeanpierre/Documents/Websites/vagrantpress-master/wordpress/coreyjon/css/sass/partials/_playlist.scss",
-		"/Users/jeanpierre/Documents/Websites/vagrantpress-master/wordpress/coreyjon/css/sass/partials/_audio.scss",
-		"/Users/jeanpierre/Documents/Websites/vagrantpress-master/wordpress/coreyjon/css/sass/app.scss",
-		"/Users/jeanpierre/Documents/Websites/vagrantpress-master/wordpress/coreyjon/css/style.css",
 		"/Users/jeanpierre/Documents/Websites/vagrantpress-master/wordpress/coreyjon/assets/BigVideoSlideshow/index.html",
 		"/Users/jeanpierre/Documents/Websites/vagrantpress-master/wordpress/coreyjon/assets/BigVideoSlideshow/css/bigvideo.css",
 		"/Users/jeanpierre/Documents/Websites/vagrantpress-master/wordpress/coreyjon/css/sass/partials/_reset.scss",
-		"/Users/jeanpierre/Documents/Websites/vagrantpress-master/wordpress/coreyjon/css/bigvideo.css",
-		"/Users/jeanpierre/Documents/Websites/vagrantpress-master/wordpress/coreyjon/css/font-awesome-4.0.3/css/font-awesome.css",
-		"/Users/jeanpierre/.dotfiles/.aliases",
 		"/Users/jeanpierre/Documents/Websites/vagrantpress-master/wordpress/coreyjon/corey.sublime-workspace",
-		"/Users/jeanpierre/Documents/Websites/vagrantpress-master/wordpress/coreyjon/css/font-awesome-4.0.3/scss/_mixins.scss",
-		"/Users/jeanpierre/Documents/Websites/vagrantpress-master/wordpress/coreyjon/css/sass/partials/_mixins.scss",
-		"/Users/jeanpierre/Documents/Websites/vagrantpress-master/wordpress/coreyjon/.gitignore",
-		"/Users/jeanpierre/Documents/Websites/vagrantpress-master/wordpress/coreyjon/css/sass/partials/_bigvideo.scss",
 		"/Users/jeanpierre/Documents/Websites/vagrantpress-master/wordpress/coreyjon/assets/BigVideoSlideshow/css/style.css",
 		"/Users/jeanpierre/Documents/Websites/vagrantpress-master/wordpress/coreyjon/css/sass/partials/_swipe.scss",
 		"/Users/jeanpierre/Documents/Websites/vagrantpress-master/wordpress/swipe/style.css",
@@ -290,24 +332,7 @@
 		"/Users/jeanpierre/Dropbox/Sites/ZybraGroup/`lib/img/index.html",
 		"/Users/jeanpierre/Desktop/dbv-1.1/README.md",
 		"/Users/jeanpierre/Downloads/dbv-1.1/README.md",
-		"/Users/jeanpierre/Dropbox/Sites/PmjECF/hiera.yaml",
-		"/Users/jeanpierre/Dropbox/Sites/PmjECF/Vagrantfile",
-		"/Users/jeanpierre/Dropbox/Sites/Vagrant/Vagrantfile",
-		"/Users/jeanpierre/Dropbox/Sites/Working/www/index.html",
-		"/Users/jeanpierre/Dropbox/Sites/Working/.gitignore",
-		"/Users/jeanpierre/Dropbox/Sites/UltraWP/Vagrantfile",
-		"/Users/jeanpierre/Dropbox/Sites/DigitalOcean/Vagrantfile",
-		"/Users/jeanpierre/init/Preferences.sublime-settings",
-		"/Users/jeanpierre/Dropbox/Sites/Racker/Vagrantfile",
-		"/Users/jeanpierre/.aliases",
-		"/Users/jeanpierre/.bash_profile",
-		"/Users/jeanpierre/.bash_profle",
-		"/Users/jeanpierre/Dropbox/Sites/Provision/Vagrantfile",
-		"/Users/jeanpierre/Dropbox/Sites/Custom/Vagrantfile",
-		"/etc/hosts",
-		"/Users/jeanpierre/.ssh/known_hosts",
-		"/Users/jeanpierre/Dropbox/Sites/Racker/my_custom_key.pub",
-		"/Users/jeanpierre/Dropbox/Sites/Altitude/AUTHORS"
+		"/Users/jeanpierre/Dropbox/Sites/PmjECF/hiera.yaml"
 	],
 	"find":
 	{
@@ -326,6 +351,31 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"Modernizr",
+			"modernizr",
+			"style.css",
+			"thing",
+			"adjustImagePositioning",
+			"previous",
+			"up",
+			"next()",
+			"up",
+			"left",
+			"next()",
+			"transition",
+			",",
+			"fa-4x",
+			"//",
+			"a.jp-play",
+			"assets",
+			"./blue.monday/",
+			"blue.monday",
+			"$bigImage",
+			"loader",
+			"function show",
+			"BV.show",
+			"data-video",
+			"gif",
 			"window	",
 			"window",
 			"height",
@@ -428,32 +478,7 @@
 			".mejs-container .mejs-controls",
 			"position: absolute;\nlist-style-type: none;\nmargin: 0;\npadding: 0;\nbottom: 0;\nleft: 0;\nheight: 30px;\nwidth: 100%;",
 			".mejs-play",
-			"mejs-button",
-			"controls-playlist.png",
-			"false",
-			" ",
-			"clear:both;",
-			"400",
-			"400px",
-			".mejs-container",
-			"2x",
-			"1x",
-			"\" t",
-			"source",
-			"./media/music",
-			"Reneag",
-			"play",
-			"mejs-playpause-button",
-			"_",
-			"';",
-			"base",
-			"<script",
-			"type=\"text/javascript\" ",
-			"href",
-			"import",
-			"Document",
-			"[/one_fourth]",
-			"[/se"
+			"mejs-button"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -471,8 +496,124 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"settings":
+					{
+						"buffer_size": 151,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								151,
+								151
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"auto_name": "Back Yard",
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -518,6 +659,86 @@
 		"selected_items":
 		[
 			[
+				"giti",
+				".gitignore"
+			],
+			[
+				"ex",
+				"index.html"
+			],
+			[
+				"in",
+				"index.html"
+			],
+			[
+				"",
+				"assets/Launch/audio/assets/css/audio.css"
+			],
+			[
+				"app",
+				"css/sass/app.scss"
+			],
+			[
+				"mixins",
+				"css/sass/partials/_mixins.scss"
+			],
+			[
+				"variables.scss",
+				"css/sass/partials/_variables.scss"
+			],
+			[
+				"custom",
+				"css/sass/partials/_custom.scss"
+			],
+			[
+				"vari",
+				"css/sass/partials/_variables.scss"
+			],
+			[
+				"biv",
+				"css/sass/partials/_bigvideo.scss"
+			],
+			[
+				"partialvarial",
+				"css/sass/partials/_variables.scss"
+			],
+			[
+				"variables",
+				"css/font-awesome-4.0.3/scss/_variables.scss"
+			],
+			[
+				"audio",
+				"css/sass/partials/_audio.scss"
+			],
+			[
+				"index",
+				"index.html"
+			],
+			[
+				"_mixins",
+				"css/sass/partials/_mixins.scss"
+			],
+			[
+				"audio.scss",
+				"coreyjon/css/sass/partials/_audio.scss"
+			],
+			[
+				"transit.m",
+				"coreyjon/js/jquery.transit.min.js"
+			],
+			[
+				"fontawesomevari",
+				"coreyjon/css/font-awesome-4.0.3/scss/_variables.scss"
+			],
+			[
+				"font",
+				"coreyjon/css/font-awesome-4.0.3/scss/font-awesome.scss"
+			],
+			[
+				"mixin",
+				"audio/assets/css/font-awesome-4.0.3/less/mixins.less"
+			],
+			[
 				"todo",
 				"coreyjon/todo.TODO"
 			],
@@ -526,16 +747,8 @@
 				"js/media_player.js"
 			],
 			[
-				"custom",
-				"css/sass/partials/_custom.scss"
-			],
-			[
 				"play",
 				"css/sass/partials/_playlist.scss"
-			],
-			[
-				"audio",
-				"css/sass/partials/_audio.scss"
 			],
 			[
 				"bigvideo",
@@ -544,10 +757,6 @@
 			[
 				"big",
 				"assets/BigVideoSlideshow/css/bigvideo.css"
-			],
-			[
-				"app",
-				"css/sass/app.scss"
 			],
 			[
 				"playlist",
@@ -566,20 +775,8 @@
 				"css/sass/partials/_custom.scss"
 			],
 			[
-				"index",
-				"index.html"
-			],
-			[
 				"font-awesome",
 				"css/font-awesome-4.0.3/css/font-awesome.css"
-			],
-			[
-				"mixin",
-				"css/sass/partials/_mixins.scss"
-			],
-			[
-				"mixins",
-				"css/font-awesome-4.0.3/scss/_mixins.scss"
 			],
 			[
 				"tood",
@@ -592,10 +789,6 @@
 			[
 				"app.scs",
 				"css/sass/app.scss"
-			],
-			[
-				"vari",
-				"css/sass/partials/_variables.scss"
 			],
 			[
 				"style.css",
@@ -611,10 +804,6 @@
 			],
 			[
 				"styl",
-				"css/style.css"
-			],
-			[
-				"",
 				"css/style.css"
 			],
 			[
@@ -646,15 +835,7 @@
 				"css/sass/partials/_audio.scss"
 			],
 			[
-				"giti",
-				".gitignore"
-			],
-			[
 				"_audio.scss",
-				"css/sass/partials/_audio.scss"
-			],
-			[
-				"audio.scss",
 				"css/sass/partials/_audio.scss"
 			]
 		],
