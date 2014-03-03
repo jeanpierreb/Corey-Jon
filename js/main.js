@@ -92,8 +92,8 @@ require([
 
 ], function () {
 
-	$('.jp-no-solution').hide();
-	
+	//$('.jp-no-solution').hide();
+
     //Write the code here for more functionality.
     console.log("All done");
 });
