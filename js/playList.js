@@ -68,4 +68,5 @@ require([
                     oga: "./music/side-b/got_to_have_you.oga"
                 }],
             playlistOptions);
-});
+    }
+);
