@@ -95,6 +95,8 @@ require([
 
    'Handlebars',
 
+   '../js/templates/screen',
+
    '../js/playList',
 
    '../js/loadVideo'
@@ -102,5 +104,23 @@ require([
 
 ], function () {
 	var template = Handlebars.compile($("#screener").html());
-    $('body').find('.wrapper').html(template());
+    data = {
+    	"id": '1',
+    	"video": 'loop_1.mov',
+    	"image": 'loop_1.jpg',
+    	"image-id": 'crazy_loud_image',
+    	"image-alt": 'Crazy Loud',
+    	"section-id": 'crazy_loud'
+    }
+    $('body').find('.wrapper').append(template(data));
+
+    data = {
+    	"id": '2',
+    	"video": 'loop_2.mov',
+    	"image": 'loop_2.jpg',
+    	"image-id": 'crazy_glue_image',
+    	"image-alt": 'Can\'t Figure Me Out',
+    	"section-id": 'crazy_glue'
+    }
+    $('body').find('.wrapper').append(template(data));
 });
