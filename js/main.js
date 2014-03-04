@@ -94,9 +94,7 @@ require([
    'transit',
 
    'Handlebars',
-
-   '../js/templates/screen',
-
+   
    '../js/playList',
 
    '../js/loadVideo'
