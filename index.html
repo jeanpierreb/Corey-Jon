@@ -67,84 +67,54 @@
         </div>       
     </header>
 </div>
-    <div class="wrapper">
-        <div class="screen" id="screen-1" data-video="vid/loop_1.mov">
-            <img src="img/loop_1.jpg" class="big-image" id="crazy_loud_image" alt="Crazy Loud" />
-            <footer class="footer">
-                <section id="crazy_loud">
-                    <div id="jquery_jplayer_1" class="jp-jplayer"></div>
-                    <div id="jp_container_1" class="jp-audio">
-                        <div class="jp-type-playlist">
-                            <div class="jp-gui jp-interface">
-                                <div class="jp-playlist">
-                                    <ul>
-                                        <li></li> <!-- Empty <li> so your HTML conforms with the W3C spec -->
-                                    </ul>
-                                </div>
-                                <div class="jp-progress">
-                                    <div class="jp-seek-bar">
-                                        <div class="jp-play-bar"></div>
-                                    </div>
-                                </div>          
-                                <ul class="jp-controls">
-                                    <li><a href="javascript:;" id="playlist-previous1" class="jp-previous" tabindex="1"><i class="fa fa-backward fa-4x "></i></a></li>
-                                    <li><a href="javascript:;" class="jp-play" tabindex="1"><i class="fa fa-play fa-4x"></i></a></li>
-                                    <li><a href="javascript:;" class="jp-pause" tabindex="1"><i class="fa fa-pause fa-4x"></i></a></li>
-                                    <li><a href="javascript:;" id="playlist-next1" class="jp-next" tabindex="1"><i class="fa fa-forward fa-4x "></i></a></li>
-                                </ul>
-                            </div>
-                            <div class="jp-no-solution">
-                                <span>Update Required</span>
-                                To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>.
-                            </div>
-                        </div>
-                    </div>
-                    <div id="jplayer_inspector_1"></div>
-                </section>
-            </footer>
-        </div>
+  <div class="wrapper">
+      
 
-        <div class="screen" id="screen-2" data-video="vid/loop_2.mov">
-            <img src="img/loop_2.jpg" class="big-image" id="crazy_glue_image" alt="Can't Figure Me Out" />
-            <footer class="footer">
-                <section id="crazy_glue">
-                    <div id="jquery_jplayer_2" class="jp-jplayer"></div>
-                    <div id="jp_container_2" class="jp-audio">
-                        <div class="jp-type-playlist">
-                            <div class="jp-gui jp-interface">
-                                <div class="jp-playlist">
-                                    <ul>
-                                        <li></li> <!-- Empty <li> so your HTML conforms with the W3C spec -->
-                                    </ul>
-                                </div>
-                                <div class="jp-progress">
-                                    <div class="jp-seek-bar">
-                                        <div class="jp-play-bar"></div>
-                                    </div>
-                                </div>
-                                <ul class="jp-controls">
-                                    <li><a href="javascript:;" id="playlist2-previous" class="jp-previous" tabindex="1"><i class="fa fa-backward fa-4x"></i></a></li>
-                                    <li><a href="javascript:;" class="jp-play" tabindex="1"><i class="fa fa-play fa-4x"></i></a></li>
-                                    <li><a href="javascript:;" class="jp-pause" tabindex="1"><i class="fa fa-pause fa-4x"></i></a></li>
-                                    <li><a href="javascript:;" id="playlist2-next" class="jp-next" tabindex="1"><i class="fa fa-forward fa-4x "></i></a></li>
-                                </ul>
-
-                            </div>
-                            <div class="jp-no-solution">
-                                <span>Update Required</span>
-                                To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>.
-                            </div>
-                        </div>
-                    </div>
-                    <div id="jplayer_inspector_2"></div>
-                </section>
-            </footer>
-        </div>
-    </div>
+        
+  </div>
      
     <nav id="next-btn">
         <a href="#" class="next-icon"></a>
     </nav>
 
 </body>
+<!-- Handlebar Scripts -->
+<script id="screener" type="text/x-handlebars-template">
+  <div class="screen" id="screen-1" data-video="vid/loop_1.mov">
+        <img src="img/loop_1.jpg" class="big-image" id="crazy_loud_image" alt="Crazy Loud" />
+        <footer class="footer">
+            <section id="crazy_loud">
+                <div id="jquery_jplayer_1" class="jp-jplayer"></div>
+                <div id="jp_container_1" class="jp-audio">
+                    <div class="jp-type-playlist">
+                        <div class="jp-gui jp-interface">
+                            <div class="jp-playlist">
+                                <ul>
+                                    <li></li> <!-- Empty <li> so your HTML conforms with the W3C spec -->
+                                </ul>
+                            </div>
+                            <div class="jp-progress">
+                                <div class="jp-seek-bar">
+                                    <div class="jp-play-bar"></div>
+                                </div>
+                            </div>          
+                            <ul class="jp-controls">
+                                <li><a href="javascript:;" id="playlist-previous1" class="jp-previous" tabindex="1"><i class="fa fa-backward fa-4x "></i></a></li>
+                                <li><a href="javascript:;" class="jp-play" tabindex="1"><i class="fa fa-play fa-4x"></i></a></li>
+                                <li><a href="javascript:;" class="jp-pause" tabindex="1"><i class="fa fa-pause fa-4x"></i></a></li>
+                                <li><a href="javascript:;" id="playlist-next1" class="jp-next" tabindex="1"><i class="fa fa-forward fa-4x "></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="jp-no-solution">
+                            <span>Update Required</span>
+                            To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>.
+                        </div>
+                    </div>
+                </div>
+                <div id="jplayer_inspector_1"></div>
+            </section>
+        </footer>
+    </div>
+</script>
+
 </html>

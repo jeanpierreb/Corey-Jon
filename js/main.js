@@ -14,7 +14,9 @@ requirejs.config({
 
         'transit': "../js/libs/jquery.transit.min",
 
-        'jplayer': "../js/libs/jquery.jplayer.min"
+        'jplayer': "../js/libs/jquery.jplayer.min",
+
+        'Handlebars': "../js/libs/handlebars-v1.3.0"
     },
 
     shim: {
@@ -64,6 +66,12 @@ requirejs.config({
             deps: ['jquery'],
 
             exports: 'jplayer'
+        },
+
+        'Handlebars': {
+            deps: ['jquery'],
+
+            exports: 'Handlebars'
         }
     },
 });
@@ -85,14 +93,14 @@ require([
 
    'transit',
 
+   'Handlebars',
+
    '../js/playList',
 
    '../js/loadVideo'
 
 
 ], function () {
-
-    //Write the code here for more functionality.
-    console.log("All done");
+	var template = Handlebars.compile($("#screener").html());
+    $('body').find('.wrapper').html(template());
 });
-  
