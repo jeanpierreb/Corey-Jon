@@ -22,7 +22,9 @@ require([
                 keyEnabled: true,
                 audioFullScreen: false,
                 repeat: true,
-      			autoPlay: false
+      			autoPlay: false,
+                loopOnPrevious : true,
+                loop: true
             };
         
             var myPlaylist = new jPlayerPlaylist({
