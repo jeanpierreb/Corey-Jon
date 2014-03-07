@@ -101,33 +101,18 @@
     }
 }
 
-
-nav#next-btn {
+nav#next,
+nav#previous {
+ 	color:black;
     position: absolute;
-    right: 5%;
     top: 45%;
-    padding: 20px;
+    padding: 10px 20px;
     background: #FFF;
-    border-radius: 40px;
     cursor: pointer;
-    z-index: 1000;
-    
+    z-index: 1000;   
+    @include round;
     @include opacity; 
 }
-
-.next-icon {
-    display: block;
-    border-top: solid 2px #e60f29;
-    border-right: solid 2px #e60f29;
-    width: 20px;
-    height: 20px;
-    position: relative;
-    left: -5px;
-    -webkit-transform: rotate(45deg);
-    -moz-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    -o-transform: rotate(45deg);
-    transform: rotate(45deg);
-    text-decoration: none;
-}
+nav#previous {left:5%;}
+nav#next {right:5%;}
 

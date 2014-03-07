@@ -13,16 +13,6 @@
     <link rel="stylesheet" href="css/app.css">
     <link rel="stylesheet" href="css/bigvideo.css">
     <link rel="stylesheet" href="css/style.css">
-
-    <!--[if lte IE 8]>
-    <style>
-        /* Rotation of the arrow element for IE < 9 */
-        .next-icon-old { /* IE Matrix Calculator - http: //www.boogdesign.com/examples/transforms/matrix-calculator.html */;
-            -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=0.70710678, M12=-0.70710678, M21=0.70710678, M22=0.70710678,sizingMethod='auto expand')";
-            filter: progid:DXImageTransform.Microsoft.Matrix(M11=0.70710678, M12=-0.70710678, M21=0.70710678, M22=0.70710678,sizingMethod='auto expand');            
-        }
-    </style>
-    <![endif]-->
     <script src="js/libs/require.js" data-main="js/main"></script>
 </head>
 <body>
@@ -32,7 +22,7 @@
         <h1 id="logo">Corey Jon</h1>
         <div class="social">
           <a href="https://facebook.com/IAmCoreyJon" target="_blank">
-            <span class="fa-stack facebook fa-lg">
+            <span class="fa-stack  fa-lg">
               <i class="fa fa-circle fa-stack-2x"></i>
               <i class="fa fa-facebook fa-stack-1x fa-black"></i>
             </span>
@@ -144,9 +134,14 @@
             </footer>
         </div>
     </div>
+
     
-    <nav id="next-btn">
-        <a href="#" class="next-icon"></a>
+    <nav id="previous">
+      <i class="fa fa-angle-left fa-2x black"></i>
+    </nav>
+
+    <nav id="next">
+      <i class="fa fa-angle-right fa-2x black"></i>
     </nav>
 
 </body>
