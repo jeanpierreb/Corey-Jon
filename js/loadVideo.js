@@ -56,8 +56,8 @@ require([
                 $window.on('orientationchange', adjustImagePositioning);
             }
             
-            // Next button click goes to next div
-            $('#next-btn').on('click', function(e) {
+            // Back and Next to switch screens
+            $('nav').on('click', function(e) {
                 e.preventDefault();
                 if (!isTransitioning) {
                     next();
