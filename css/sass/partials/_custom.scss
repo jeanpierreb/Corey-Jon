@@ -1,3 +1,13 @@
+.social{
+	height:43px;
+	i+i { color:#000; }
+
+	a span {
+		color:#FFF;
+		@include opacity;
+	}
+}
+
 @media (min-width: 761px) {
 	#logo {
 		background: url(../img/logo.png);
@@ -12,20 +22,6 @@
 	.social{
 		margin:125px 25px 0 0;
 		float:right;
-		height:43px;
-
-		a span {
-			color:#FFF;
-			opacity:0.2;
-			&:hover {
-				opacity: 1;
-			}
-		}
-
-		i+i {
-			color:#000
-		}	
-
 	}
 
 	header {
@@ -38,7 +34,6 @@
 	}
 }
 
-//Mobile Version
 @media (max-width : 760px) { 
 	#logo {
 		text-align:center;
@@ -51,16 +46,6 @@
 	.social{
 		width: 275px;
 		margin:0 auto;
-		height:43px;
-
-		a span {
-			color:#FFF;
-			@include opacity;
-		}
-
-		.fa-black {
-			color:#000
-		}	
 
 	}
 
@@ -96,13 +81,11 @@
     text-transform: uppercase;
     cursor: pointer;
     
-    li {
-    	@include opacity;	
-    }
+    li { @include opacity; }
 }
 
 nav#next,
-nav#previous {
+nav#back {
  	color:black;
     position: absolute;
     top: 45%;
@@ -113,6 +96,6 @@ nav#previous {
     @include round;
     @include opacity; 
 }
-nav#previous {left:5%;}
+nav#back {left:5%;}
 nav#next {right:5%;}
 
