@@ -84,8 +84,8 @@
     li { @include opacity; }
 }
 
-nav#next,
-nav#back {
+i#next,
+i#back {
  	color:black;
     position: absolute;
     top: 45%;
@@ -96,6 +96,6 @@ nav#back {
     @include round;
     @include opacity; 
 }
-nav#back {left:5%;}
-nav#next {right:5%;}
+i#back {left:5%;}
+i#next {right:5%;}
 

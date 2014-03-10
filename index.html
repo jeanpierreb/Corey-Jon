@@ -8,11 +8,9 @@
     <meta name="keywords" content="Corey Jon, Crazy Loud, Crazy Glue, Corey Jon Baker, Corey Baker, Dancer, Choreographer, Actor, Performer, Singer-songwriter" />
     <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'/> 
     <link rel="shortcut icon" href="img/favicon.ico"> 
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700,300' rel='stylesheet' type='text/css' />
-    <link rel="stylesheet" href="css/font-awesome-4.0.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/app.css">
     <link rel="stylesheet" href="css/bigvideo.css">
-    <link rel="stylesheet" href="css/style.css">
     <script src="js/libs/require.js" data-main="js/main"></script>
 </head>
 <body>
@@ -69,6 +67,10 @@
                 <section id="{{section-id}}">
                     <div id="jquery_jplayer_{{id}}" class="jp-jplayer"></div>
                     <div id="jp_container_{{id}}" class="jp-audio">
+            <div class="jp-no-solution">
+              <h2>Your Browser Needs an Update</h2>
+              <p>For the music player to work you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>.</p>
+            </div>
                         <div class="jp-type-playlist">
                             <div class="jp-gui jp-interface">
                                 <div class="jp-playlist">
@@ -84,10 +86,6 @@
                                     <li><a href="javascript:;" id="playlist-next1" class="jp-next" tabindex="1"><i class="fa fa-forward fa-4x "></i></a></li>
                                 </ul>
                             </div>
-                            <div class="jp-no-solution">
-                                <span>Update Required</span>
-                                To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>.
-                            </div>
                         </div>
                     </div>
                 </section>
@@ -95,11 +93,9 @@
         </div>
     </script>
     </div>
-    <nav id="back">
-      <i class="fa fa-angle-left fa-2x"></i>
-    </nav>
-    <nav id="next">
-      <i class="fa fa-angle-right fa-2x"></i>
+    <nav>
+      <i id="back" class="fa fa-angle-left fa-2x"></i>
+      <i id="next" class="fa fa-angle-right fa-2x"></i>
     </nav>
 </body>
 </html>

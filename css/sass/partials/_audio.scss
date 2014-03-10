@@ -1,3 +1,6 @@
+//#crazy_loud { font-family: $sans;}
+//#crazy_glue { font-family: $serif;}
+
 
 li {list-style:none;}
 .jp-pause, .jp-play, .jp-next, .jp-previous {
@@ -58,6 +61,17 @@ li {list-style:none;}
 		margin:0 auto;
 		width:300px;
 	}
+}
+.jp-no-solution {
+	position:absolute;
+	top:40%;
+	width: 100%;
+	padding: 0 30%;
+	height:auto;
+	background:white;
+	opacity:.7;
+	color:black;
+	a {color:blue;}
 }
 
 .jp-playlist ul {margin:0;}
