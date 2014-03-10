@@ -52,7 +52,7 @@ require([
                 $('#crazy_loud_image').attr('src', 'img/loop_1.gif');
                 $('#crazy_glue_image').attr('src', 'img/loop_2.gif');
 
-                $window.on('resize', adjustImagePositioning);
+                //$window.on('resize', adjustImagePositioning);
                 $window.on('orientationchange', adjustImagePositioning);
             }
             
