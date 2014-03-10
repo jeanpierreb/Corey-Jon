@@ -1,5 +1,5 @@
-//#crazy_loud { font-family: $sans;}
-//#crazy_glue { font-family: $serif;}
+#crazy_loud { font-family: $sans;}
+#crazy_glue { font-family: $serif;}
 
 
 li {list-style:none;}
@@ -15,7 +15,6 @@ li {list-style:none;}
 
 @media (max-width:699px){
 	.jp-playlist-current {
-		//font: $sans;
 		font-size: 1.7em;
 		line-height: 1.4em;
 		color:black;
@@ -62,17 +61,7 @@ li {list-style:none;}
 		width:300px;
 	}
 }
-.jp-no-solution {
-	position:absolute;
-	top:40%;
-	width: 100%;
-	padding: 0 30%;
-	height:auto;
-	background:white;
-	opacity:.7;
-	color:black;
-	a {color:blue;}
-}
+.jp-no-solution {}
 
 .jp-playlist ul {margin:0;}
 .jp-playlist li {
@@ -82,36 +71,3 @@ li {list-style:none;}
 	display: block;
 }
 section{ text-align: center;}
-
-/* The width for this element needs to be fluid */
-.jp-progress {
-	overflow:hidden;
-	background-color: #ddd;
-	clear:both;
-	margin:0 auto;
-	width:90%;
-}
-.jp-audio .jp-progress {
-	height:5px;
-	@include opacity;
-}
-
-/*div.jp-audio div.jp-type-playlist div.jp-progress {}*/
-
-div.jp-seek-bar {
-	background: url("../img/jplayer.blue.monday.jpg") 0 -202px repeat-x;
-	width:0px;
-	height:100%;
-	cursor: pointer;
-}
-div.jp-play-bar {
-	background: url("../img/jplayer.blue.monday.jpg") 0 -218px repeat-x ;
-	width:0px;
-	height:100%;
-}
-
-/* The seeking class is added/removed inside jPlayer */
-div.jp-seeking-bg {
-	background: url("../img/jplayer.blue.monday.seeking.gif");
-}
-
