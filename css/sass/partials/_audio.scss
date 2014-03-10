@@ -12,7 +12,7 @@ li {list-style:none;}
 
 @media (max-width:699px){
 	.jp-playlist-current {
-		font: $sans;
+		//font: $sans;
 		font-size: 1.7em;
 		line-height: 1.4em;
 		color:black;
@@ -28,7 +28,7 @@ li {list-style:none;}
 	}
 	.jp-controls {
 		margin:0 auto;
-		width:205px;
+		width:300px;
 	}
 	a.jp-play, a.jp-pause {
 		margin:0 35px;
@@ -45,7 +45,7 @@ li {list-style:none;}
 	.footer { height: 180px;}
 
 	.jp-playlist-current {
-		font: $sans;
+		//font: $sans;
 		font-size: 2em;
 		line-height: 1.5em;
 		color:black;
@@ -56,10 +56,11 @@ li {list-style:none;}
 	}
 	.jp-controls {
 		margin:0 auto;
-		width:265px;
+		width:300px;
 	}
 }
 
+.jp-playlist ul {margin:0;}
 .jp-playlist li {
 	display:none;
 }
