@@ -81,7 +81,7 @@ require([
                 }
                 
                 if (!isTouch) {
-                    $('#big-video-wrap').transit({'left':'-100%'},transitionDur)
+                    $('#big-video-wrap').transit({'left':'-100%'},transitionDur);
                 }
                     
                 (Modernizr.csstransitions)?
@@ -94,7 +94,7 @@ require([
 
 
             function onVideoLoaded() {
-                $('#screen-'+screenIndex).find('.big-image').transit({'opacity':0},500)
+                $('#screen-'+screenIndex).find('.big-image').transit({'opacity':0},500);
             }
 
             function onTransitionComplete() {
@@ -134,7 +134,7 @@ require([
                         height  : new_h,
                         left    : ( windowWidth - new_w ) / 2,
                         top     : ( windowHeight - new_h ) / 2
-                    })
+                    });
 
                 });
 
