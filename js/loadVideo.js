@@ -104,7 +104,14 @@ require([
                     showVideo();
                 }
             }
-            $(window).on('orientationchange', adjustImagePositioning);
+
+            //$(window).on('orientationchange', adjustImagePositioning);
+            /*
+            * I think the issue is here somewhere but I haven't
+            * been able to figure it out. Hopefully you have better luck.
+            * Also, let me know if the line of code above this comment is
+            * useful. If not just delete that.
+             */
             function adjustImagePositioning() {
                 $bigImage.each(function(){
                     var $img = $(this),
