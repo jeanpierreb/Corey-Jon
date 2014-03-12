@@ -113,36 +113,24 @@ require([
             * useful. If not just delete that.
              */
             function adjustImagePositioning() {
-                $bigImage.each(function(){
-                    var $img = $(this),
-                        img = new Image();
-
-                    img.src = $img.attr('src');
-
-                    var windowWidth = $window.width(),
-                        windowHeight = $window.height(),
-                        r_w = windowHeight / windowWidth,
-                        i_w = img.width,
-                        i_h = img.height,
-                        r_i = i_h / i_w,
-                        new_w, new_h, new_left, new_top;
-
-                    if( r_w > r_i ) {
-                        new_h   = windowHeight;
-                        new_w   = windowHeight / r_i;
+                
+                $bigImage.each(function(img, data){
+                    var theWindow = $(window),
+                    $bg = $(data),
+                    img = new Image();
+                    img.src = $bg.attr('src');
+                    aspectRatio = img.width / img.height;                         
+                    console.log((theWindow.width() / theWindow.height()), aspectRatio)
+                    if ( (theWindow.width() / theWindow.height()) < aspectRatio ) {
+                        console.log('Jossie')
+                        $bg
+                            .css('min-height', '100%');
+                    } else {
+                        console.log('Jofe')
+                        $bg
+                            .css('min-width', '100%');
                     }
-                    else {
-                        new_h   = windowWidth * r_i;
-                        new_w   = windowWidth;
-                    }
-
-                    $img.css({
-                        width   : new_w,
-                        height  : new_h,
-                        left    : ( windowWidth - new_w ) / 2,
-                        top     : ( windowHeight - new_h ) / 2
-                    });
-
+                                        
                 });
 
             }
