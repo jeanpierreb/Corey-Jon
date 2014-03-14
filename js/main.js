@@ -104,7 +104,7 @@ require([
 	var template = Handlebars.compile($("#screener").html());
     data = {
     	"id": '1',
-    	"video": 'loop_11.mov',
+    	"video": 'loop_1.mov',
     	"image": 'loop_1.jpg',
     	"image-id": 'crazy_loud_image',
     	"image-alt": 'Crazy Loud',
@@ -114,7 +114,7 @@ require([
 
     data = {
     	"id": '2',
-    	"video": 'loop_21.mov',
+    	"video": 'loop_2.mov',
     	"image": 'loop_2.jpg',
     	"image-id": 'crazy_glue_image',
     	"image-alt": 'Can\'t Figure Me Out',

@@ -112,38 +112,30 @@ require([
             * Also, let me know if the line of code above this comment is
             * useful. If not just delete that.
              */
-            function adjustImagePositioning() {
-                $bigImage.each(function(){
-                    var $img = $(this),
-                        img = new Image();
+            function adjustImagePositioning (){
+            var mediaAspect = 16/9,
+                windowW = $(window).width(),
+                windowH = $(window).height(),
+                windowAspect = windowW/windowH;
+                if (windowAspect < mediaAspect) {
+                    // taller
+                    // is image
+                    $('.big-image')
+                        .width(windowH*mediaAspect)
+                        .height(windowH)
+                        .css('top',0)
+                        .css('left',-(windowH*mediaAspect-windowW)/2);
+                
+                } else {
+                    // wider
+                    // is image
+                    $('.big-image')
+                        .width(windowW)
+                        .height(windowW/mediaAspect)
+                        .css('top',-(windowW/mediaAspect-windowH)/2)
+                        .css('left',0);
+                
+                }
 
-                    img.src = $img.attr('src');
-
-                    var windowWidth = $window.width(),
-                        windowHeight = $window.height(),
-                        r_w = windowHeight / windowWidth,
-                        i_w = img.width,
-                        i_h = img.height,
-                        r_i = i_h / i_w,
-                        new_w, new_h, new_left, new_top;
-
-                    if( r_w > r_i ) {
-                        new_h   = windowHeight;
-                        new_w   = windowHeight / r_i;
-                    }
-                    else {
-                        new_h   = windowWidth * r_i;
-                        new_w   = windowWidth;
-                    }
-
-                    $img.css({
-                        width   : new_w,
-                        height  : new_h,
-                        left    : ( windowWidth - new_w ) / 2,
-                        top     : ( windowHeight - new_h ) / 2
-                    });
-
-                });
-
-            }
+            };
 });
