@@ -1,5 +1,16 @@
-#crazy_loud { font-family: $serif;}
-#crazy_glue { font-family: $sans;}
+#crazy_loud a.jp-playlist-current{
+	font-family: $serif;
+	&:hover{
+		color: #c7000c;
+	}
+	
+}
+#crazy_glue a.jp-playlist-current{
+	font-family: $sans;
+	&:hover {
+		color: #06b2e4;
+	}
+}
 
 
 li {list-style:none;}
@@ -17,10 +28,8 @@ li {list-style:none;}
 	.jp-playlist-current {
 		font-size: 1.7em;
 		line-height: 1.4em;
-		color:black;
 		text-decoration: none;
 		text-shadow: 0px 2px 1px #bbbaba;
-		color: #c2c2c2;
 		text-shadow: 0px 2px 1px #333;
 	}
 	.footer { height: 130px;}
