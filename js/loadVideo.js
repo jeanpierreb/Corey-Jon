@@ -112,26 +112,30 @@ require([
             * Also, let me know if the line of code above this comment is
             * useful. If not just delete that.
              */
-            function adjustImagePositioning() {
+            function adjustImagePositioning (){
+            var mediaAspect = 16/9,
+                windowW = $(window).width(),
+                windowH = $(window).height(),
+                windowAspect = windowW/windowH;
+                if (windowAspect < mediaAspect) {
+                    // taller
+                    // is image
+                    $('.big-image')
+                        .width(windowH*mediaAspect)
+                        .height(windowH)
+                        .css('top',0)
+                        .css('left',-(windowH*mediaAspect-windowW)/2);
                 
-                $bigImage.each(function(img, data){
-                    var theWindow = $(window),
-                    $bg = $(data),
-                    img = new Image();
-                    img.src = $bg.attr('src');
-                    aspectRatio = img.width / img.height;                         
-                    console.log((theWindow.width() / theWindow.height()), aspectRatio)
-                    if ( (theWindow.width() / theWindow.height()) < aspectRatio ) {
-                        console.log('Jossie')
-                        $bg
-                            .css('min-height', '100%');
-                    } else {
-                        console.log('Jofe')
-                        $bg
-                            .css('min-width', '100%');
-                    }
-                                        
-                });
+                } else {
+                    // wider
+                    // is image
+                    $('.big-image')
+                        .width(windowW)
+                        .height(windowW/mediaAspect)
+                        .css('top',-(windowW/mediaAspect-windowH)/2)
+                        .css('left',0);
+                
+                }
 
-            }
+            };
 });
