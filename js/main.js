@@ -16,6 +16,8 @@ requirejs.config({
 
         'jplayer': "../js/libs/jquery.jplayer.min",
 
+        'pace': "../js/libs/pace.min",
+
         'Handlebars': "../js/libs/handlebars-v1.3.0"
     },
 
@@ -27,7 +29,7 @@ requirejs.config({
         },
 
         'jquery': {
-        	deps: ['require'],
+            deps: ['require'],
 
             exports: '$'
         },
@@ -66,6 +68,12 @@ requirejs.config({
             deps: ['jquery'],
 
             exports: 'jplayer'
+        },
+
+        'pace': {
+            deps: ['jquery'],
+
+            exports: 'pace'
         },
 
         'Handlebars': {
