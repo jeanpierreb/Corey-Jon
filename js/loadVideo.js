@@ -13,7 +13,7 @@ require([
 
    'bigvideo',
 
-   'transit',
+   'transit'
 
 ], function () {
     var screenIndex = 1,
