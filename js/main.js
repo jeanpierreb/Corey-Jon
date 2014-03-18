@@ -18,7 +18,16 @@ requirejs.config({
 
         'pace': "../js/libs/pace.min",
 
-        'Handlebars': "../js/libs/handlebars-v1.3.0"
+        'Handlebars': "../js/libs/handlebars-v1.3.0",
+
+        'hbs': '../js/libs/hbs'
+    },
+
+    hbs: { // optional
+        helpers: true,            // default: true
+        i18n: false,              // default: false
+        templateExtension: 'hbs', // default: 'hbs'
+        partialsUrl: ''           // default: ''
     },
 
     shim: {
@@ -87,8 +96,6 @@ requirejs.config({
 require([
    'modernizr',
 
-   'jquery',
-
    'jquery-ui',
 
    'imagesloaded',
@@ -103,11 +110,19 @@ require([
 
    'Handlebars',
    
-   '../js/playList',
+   'playList',
 
-   '../js/loadVideo'
+   'loadVideo'
+   
 
 
-], function () {
+], function (modernizr, $, imagesloaded, jplayer, video, bigvideo, transit, Handlebars, playList, loadVideo) {
+    
+    $('.wrapper').on("playerLoaded", function() {
+        new loadVideo();
+    })
+    playList.placeTemplate();
+    playList.installPlayer();
 	
+
 });

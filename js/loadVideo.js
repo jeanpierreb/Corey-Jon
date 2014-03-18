@@ -1,4 +1,4 @@
-require([
+define([
    'modernizr',
    
    'jquery',
@@ -16,7 +16,8 @@ require([
    'transit'
 
 ], function () {
-    var screenIndex = 1,
+    return function() {
+        var screenIndex = 1,
                 numScreens = $('.screen').length,
                 isTransitioning = false,
                 transitionDur = 1000,
@@ -138,4 +139,6 @@ require([
                 }
 
             };
+    }
+    
 });
