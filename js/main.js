@@ -120,7 +120,7 @@ require([
     
     $('.wrapper').on("playerLoaded", function() {
         new loadVideo();
-    })
+    });
     playList.placeTemplate();
     playList.installPlayer();
 	

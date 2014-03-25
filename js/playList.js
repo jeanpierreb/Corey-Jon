@@ -1,43 +1,36 @@
 define([
    'jquery-ui',
-
    'imagesloaded',
-
    'jplayer',
-
    'video',
-
    'bigvideo',
-
    'transit',
-
    'Handlebars',
-
    'hbs!templates/playList'
 
 ], function ($, imagesloaded, jPlayer, video, bigvideo, transit, Handlebars, template) {
 
-    return  {  
+    return  {
 
         placeTemplate: function() {
             data = {
                 "id": '1',
-                "video": 'loop_1.mov',
-                "image": 'loop_1.jpg',
+                "video": 'rorschach.mov',
+                "image": 'rorschach.jpg',
                 "image-id": 'crazy_loud_image',
                 "image-alt": 'Crazy Loud',
                 "section-id": 'crazy_loud'
-            }
+            };
             $('body').find('.wrapper').append(template(data));
 
             data = {
                 "id": '2',
-                "video": 'loop_2.mov',
-                "image": 'loop_2.jpg',
+                "video": 'buddha.mov',
+                "image": 'buddha.jpg',
                 "image-id": 'crazy_glue_image',
                 "image-alt": 'Can\'t Figure Me Out',
                 "section-id": 'crazy_glue'
-            }
+            };
             $('body').find('.wrapper').append(template(data));
         },
 
@@ -100,13 +93,5 @@ define([
 
                 $('.wrapper').trigger("playerLoaded");
         }
-        
-
-       /* 
-
-
-        }*/
-    }
-}
-    
-);
+    };
+});

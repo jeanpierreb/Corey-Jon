@@ -1,20 +1,12 @@
 define([
    'modernizr',
-   
    'jquery',
-
    'jquery-ui',
-
    'imagesloaded',
-
    'jplayer',
-
    'video',
-
    'bigvideo',
-
    'transit'
-
 ], function () {
     return function() {
         var screenIndex = 1,
@@ -138,7 +130,7 @@ define([
                 
                 }
 
-            };
-    }
+            }
+    };
     
 });
