@@ -42,8 +42,8 @@ define([
                     .imagesLoaded(adjustImagePositioning);
                 // and on window resize and orientation change
                 
-                $('#crazy_loud_image').attr('src', 'img/loop_1.gif');
-                $('#crazy_glue_image').attr('src', 'img/loop_2.gif');
+                $('#crazy_loud_image').attr('src', 'https://s3.amazonaws.com/coreyjon/img/rorschach.gif');
+                $('#crazy_glue_image').attr('src', 'https://s3.amazonaws.com/coreyjon/img/buddha.gif');
 
                 //$window.on('resize', adjustImagePositioning);
                 $window.on('orientationchange', adjustImagePositioning);
