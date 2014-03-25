@@ -15,8 +15,8 @@ define([
         placeTemplate: function() {
             data = {
                 "id": '1',
-                "video": 'rorschach.mov',
-                "image": 'rorschach.jpg',
+                "video": 'https://s3.amazonaws.com/coreyjon/rorschach.mov',
+                "image": 'https://s3.amazonaws.com/coreyjon/img/rorschach.jpg',
                 "image-id": 'crazy_loud_image',
                 "image-alt": 'Crazy Loud',
                 "section-id": 'crazy_loud'
@@ -25,8 +25,8 @@ define([
 
             data = {
                 "id": '2',
-                "video": 'buddha.mov',
-                "image": 'buddha.jpg',
+                "video": 'https://s3.amazonaws.com/coreyjon/buddha.mov',
+                "image": 'https://s3.amazonaws.com/coreyjon/img/buddha.jpg',
                 "image-id": 'crazy_glue_image',
                 "image-alt": 'Can\'t Figure Me Out',
                 "section-id": 'crazy_glue'
