@@ -1,9 +1,5 @@
-// @import url(http://fonts.googleapis.com/css?family=EB+Garamond|Hammersmith+One);
-// $sans: 'EB Garamond', serif;
-// $serif: 'Hammersmith One', sans-serif;
-@import url(http://fonts.googleapis.com/css?family=Quicksand:300|Vampiro+One);
+@import url(http://fonts.googleapis.com/css?family=Quicksand:300);
 $sans: 'Quicksand', sans-serif;
-$serif: 'Vampiro One', cursive;
 
 @mixin opacity {
     opacity: 0.3;
