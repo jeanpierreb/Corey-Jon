@@ -15,7 +15,7 @@ define([
         placeTemplate: function() {
             data = {
                 "id": '1',
-                // "video": 'http://storage.googleapis.com/coreyjon/film/rorschach.mov',
+                "video": 'http://storage.googleapis.com/coreyjon/film/rorschach.mov',
                 "image": 'http://storage.googleapis.com/coreyjon/img/rorschach.jpg',
                 "image-id": 'crazy_loud_image',
                 "image-alt": 'Crazy Loud',
@@ -25,7 +25,7 @@ define([
 
             data = {
                 "id": '2',
-                // "video": 'http://storage.googleapis.com/coreyjon/film/buddha.mov',
+                "video": 'http://storage.googleapis.com/coreyjon/film/buddha.mov',
                 "image": 'http://storage.googleapis.com/coreyjon/img/buddha.jpg',
                 "image-id": 'crazy_glue_image',
                 "image-alt": 'Can\'t Figure Me Out',
