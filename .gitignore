@@ -3,6 +3,7 @@
 /img
 /vid
 /css/.sass-cache
+/.vagrant
 *.zip
 *.jpg
 *.png
