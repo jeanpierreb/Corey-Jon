@@ -1,0 +1,83 @@
+#crazy_loud a.jp-playlist-current{
+	font-family: $sans;
+	&:hover{
+		color: #c7000c;
+	}
+	
+}
+#crazy_glue a.jp-playlist-current{
+	font-family: $sans;
+	&:hover {
+		color: #06b2e4;
+	}
+}
+
+
+li {list-style:none;}
+.jp-pause, .jp-play, .jp-next, .jp-previous {
+	float:left;
+	margin:0;
+	padding:0;
+	border:none;
+}
+
+
+.footer i {color:white;}
+
+@media (max-width:699px){
+	.jp-playlist-current {
+		font-size: 1.7em;
+		line-height: 1.4em;
+		text-decoration: none;
+		text-shadow: 0px 2px 1px #bbbaba;
+		text-shadow: 0px 2px 1px #333;
+	}
+	.footer { height: 130px;}
+
+	.fa-4x {
+	  font-size: 3em !important;
+	}
+	.jp-controls {
+		margin:0 auto;
+		padding:0;
+		width:201px;
+		height:48px;
+	}
+	a.jp-play, a.jp-pause {
+		margin:0 35px;
+		width: 41px;
+		text-align: center;
+	}
+}
+@media (min-width:700px){
+	a.jp-play, a.jp-pause {
+		margin:0 45px;
+		width:50px;
+		text-align:center;
+	}
+	.footer { height: 180px;}
+
+	.jp-playlist-current {
+		font-size: 2em;
+		line-height: 1.5em;
+		color:black;
+		text-decoration: none;
+		text-shadow: 0px 2px 1px #bbbaba;
+		color: #c2c2c2;
+		text-shadow: 0px 2px 1px #333;
+	}
+	.jp-controls {
+		margin:0 auto;
+		width:300px;
+	}
+}
+.jp-no-solution {}
+
+.jp-playlist ul {margin:0;padding:0;}
+.jp-playlist li {
+	display:none;
+}
+.jp-playlist li.jp-playlist-current {
+	display: block;
+}
+section{ text-align: center;}
